@@ -4,12 +4,17 @@
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
+import java.util.Properties
+import java.io.FileInputStream
 
 object Preliminary {
   def main(args: Array[String]) {
 
-    val ratingsFile = "/users/shrinidhihudli/Downloads/yahoodataset/ydata-ymusic-kddcup-2011-track1/trainIdx1.txt"
-    val tracksFile = "/users/shrinidhihudli/Downloads/yahoodataset/ydata-ymusic-kddcup-2011-track1/trackData1.txt"
+    val properties: Properties = loadPropertiesFile()
+    val ratingsFile = properties.getProperty("ratingsFile")
+    val tracksFile =  properties.getProperty("tracksFile");
+
+
     val conf = new SparkConf().setAppName("Simple Application").setMaster("local")
     val sc = new SparkContext(conf)
 
@@ -31,5 +36,13 @@ object Preliminary {
     println("Total time taken for join: " + duration1/1000.0 + " s")
     println("Total time taken for count: " + duration2/1000.0 + " s")
 
+  }
+
+  def loadPropertiesFile():Properties = {
+    val properties = new Properties()
+    val propFile = new FileInputStream("app.properties")
+    properties.load(propFile)
+    propFile.close()
+    properties
   }
 }
