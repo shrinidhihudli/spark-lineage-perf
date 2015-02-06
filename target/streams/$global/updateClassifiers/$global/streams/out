@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for performance#performance$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.5 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ddcbf2a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f3be784
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.5
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.5
 [debug] 	found org.scala-lang#scala-library;2.11.5 in sbt-chain
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.5 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-core_2.11;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-core_2.11;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1da10559
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25dd550a
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-core_2.11;1.2.0
 [debug] 	local: revision in cache: org.apache.spark#spark-core_2.11;1.2.0
 [debug] 	found org.apache.spark#spark-core_2.11;1.2.0 in sbt-chain
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-core_2.11;1.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.twitter#chill_2.11;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill_2.11;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5537d4a6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15866c9c
 [debug] sbt-chain: module revision found in cache: com.twitter#chill_2.11;0.5.0
 [debug] 	local: revision in cache: com.twitter#chill_2.11;0.5.0
 [debug] 	found com.twitter#chill_2.11;0.5.0 in sbt-chain
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.twitter#chill_2.11;0.5.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.twitter#chill-java;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill-java;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59699c57
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4efeea0c
 [debug] sbt-chain: module revision found in cache: com.twitter#chill-java;0.5.0
 [debug] 	local: revision in cache: com.twitter#chill-java;0.5.0
 [debug] 	found com.twitter#chill-java;0.5.0 in sbt-chain
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.twitter#chill-java;0.5.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.esotericsoftware.kryo#kryo;2.21 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.kryo#kryo;2.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2af019d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6014eb4
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.kryo#kryo;2.21
 [debug] 	local: revision in cache: com.esotericsoftware.kryo#kryo;2.21
 [debug] 	found com.esotericsoftware.kryo#kryo;2.21 in sbt-chain
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.esotericsoftware.kryo#kryo;2.21 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.reflectasm#reflectasm;1.07 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b516a27
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1411abf5
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.reflectasm#reflectasm;1.07
 [debug] 	local: revision in cache: com.esotericsoftware.reflectasm#reflectasm;1.07
 [debug] 	found com.esotericsoftware.reflectasm#reflectasm;1.07 in sbt-chain
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.esotericsoftware.minlog#minlog;1.2 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.minlog#minlog;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a84781b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@173cf85d
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.minlog#minlog;1.2
 [debug] 	local: revision in cache: com.esotericsoftware.minlog#minlog;1.2
 [debug] 	found com.esotericsoftware.minlog#minlog;1.2 in sbt-chain
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.esotericsoftware.minlog#minlog;1.2 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.objenesis#objenesis;1.2 [compile->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f3ffb9f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e0efc28
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.2
 [debug] 	local: revision in cache: org.objenesis#objenesis;1.2
 [debug] 	found org.objenesis#objenesis;1.2 in sbt-chain
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.objenesis#objenesis;1.2 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-client;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-client;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c30f55f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@486cf075
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-client;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-client;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-client;2.2.0 in sbt-chain
@@ -88,7 +88,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-client;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@499dce92
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58e98a7d
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-common;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-common;2.2.0 in sbt-chain
@@ -97,7 +97,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-annotations;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7faceb54
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d7c6e5b
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-annotations;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-annotations;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-annotations;2.2.0 in sbt-chain
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-cli#commons-cli;1.2 [compile->default(compile)]
 [info] Resolving commons-cli#commons-cli;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a1c601a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a600421
 [debug] sbt-chain: module revision found in cache: commons-cli#commons-cli;1.2
 [debug] 	local: revision in cache: commons-cli#commons-cli;1.2
 [debug] 	found commons-cli#commons-cli;1.2 in sbt-chain
@@ -115,7 +115,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-cli#commons-cli;1.2 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math;2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70c10f95
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c9d6352
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
 [debug] 	local: revision in cache: org.apache.commons#commons-math;2.1
 [debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
@@ -124,7 +124,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
 [info] Resolving commons-httpclient#commons-httpclient;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52e29201
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5068ad95
 [debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
 [debug] 	local: revision in cache: commons-httpclient#commons-httpclient;3.1
 [debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
@@ -133,7 +133,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-codec#commons-codec;1.4 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@138a927f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f59c226
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.4
 [debug] 	local: revision in cache: commons-codec#commons-codec;1.4
 [debug] 	found commons-codec#commons-codec;1.4 in sbt-chain
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-codec#commons-codec;1.4 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cfcd82
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fe506a
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
@@ -151,7 +151,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->log4j#log4j;1.2.17 [compile->default(compile)]
 [info] Resolving log4j#log4j;1.2.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12730c86
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b720efd
 [debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
 [debug] 	local: revision in cache: log4j#log4j;1.2.17
 [debug] 	found log4j#log4j;1.2.17 in sbt-chain
@@ -160,7 +160,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-lang#commons-lang;2.5 [compile->default(compile)]
 [info] Resolving commons-lang#commons-lang;2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2edf8cc3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fe706fc
 [debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.5
 [debug] 	local: revision in cache: commons-lang#commons-lang;2.5
 [debug] 	found commons-lang#commons-lang;2.5 in sbt-chain
@@ -169,7 +169,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-lang#commons-lang;2.5 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->default(compile)]
 [info] Resolving commons-configuration#commons-configuration;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c4c84e1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d9bd2da
 [debug] sbt-chain: module revision found in cache: commons-configuration#commons-configuration;1.6
 [debug] 	local: revision in cache: commons-configuration#commons-configuration;1.6
 [debug] 	found commons-configuration#commons-configuration;1.6 in sbt-chain
@@ -178,7 +178,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f65235c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6729910a
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	local: revision in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
@@ -187,7 +187,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-digester#commons-digester;1.8 [compile->default(compile)]
 [info] Resolving commons-digester#commons-digester;1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27772f0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b4194ee
 [debug] sbt-chain: module revision found in cache: commons-digester#commons-digester;1.8
 [debug] 	local: revision in cache: commons-digester#commons-digester;1.8
 [debug] 	found commons-digester#commons-digester;1.8 in sbt-chain
@@ -196,7 +196,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-digester#commons-digester;1.8 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->default(compile)]
 [info] Resolving commons-beanutils#commons-beanutils;1.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d5ada6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@301ad0db
 [debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils;1.7.0
 [debug] 	local: revision in cache: commons-beanutils#commons-beanutils;1.7.0
 [debug] 	found commons-beanutils#commons-beanutils;1.7.0 in sbt-chain
@@ -205,7 +205,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-core-asl;1.8.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a85fa8d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2efa6a04
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.8.8
 [debug] 	local: revision in cache: org.codehaus.jackson#jackson-core-asl;1.8.8
 [debug] 	found org.codehaus.jackson#jackson-core-asl;1.8.8 in sbt-chain
@@ -214,7 +214,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.8.8 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.8.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f29932e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46057ef3
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.8.8
 [debug] 	local: revision in cache: org.codehaus.jackson#jackson-mapper-asl;1.8.8
 [debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.8.8 in sbt-chain
@@ -223,7 +223,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.8.8 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.avro#avro;1.7.4 [compile->default(compile)]
 [info] Resolving org.apache.avro#avro;1.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@350e7ba3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e27e6b0
 [debug] sbt-chain: module revision found in cache: org.apache.avro#avro;1.7.4
 [debug] 	local: revision in cache: org.apache.avro#avro;1.7.4
 [debug] 	found org.apache.avro#avro;1.7.4 in sbt-chain
@@ -232,7 +232,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.avro#avro;1.7.4 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-compress;1.4.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@535fc094
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a5fcb9f
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1
 [debug] 	local: revision in cache: org.apache.commons#commons-compress;1.4.1
 [debug] 	found org.apache.commons#commons-compress;1.4.1 in sbt-chain
@@ -241,7 +241,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.tukaani#xz;1.0 [compile->default(compile)]
 [info] Resolving org.tukaani#xz;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a82ee8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52d4618b
 [debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.0
 [debug] 	local: revision in cache: org.tukaani#xz;1.0
 [debug] 	found org.tukaani#xz;1.0 in sbt-chain
@@ -250,7 +250,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.tukaani#xz;1.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.6.4 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.6.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c1aca55
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3850c7c5
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.4
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.6.4
 [debug] 	found org.slf4j#slf4j-api;1.6.4 in sbt-chain
@@ -259,7 +259,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.6.4 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
 [info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e2a7c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15dce414
 [debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
 [debug] 	local: revision in cache: com.google.protobuf#protobuf-java;2.5.0
 [debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
@@ -268,7 +268,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-auth;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b3390a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71f419ef
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-auth;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-auth;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-auth;2.2.0 in sbt-chain
@@ -277,7 +277,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-hdfs;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@491f69ad
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7051e5d7
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-hdfs;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-hdfs;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-hdfs;2.2.0 in sbt-chain
@@ -286,7 +286,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#jetty-util;6.1.26 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@422cc876
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@250b439b
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-util;6.1.26
 [debug] 	local: revision in cache: org.mortbay.jetty#jetty-util;6.1.26
 [debug] 	found org.mortbay.jetty#jetty-util;6.1.26 in sbt-chain
@@ -295,7 +295,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24a5e70c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ff711a3
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 in sbt-chain
@@ -304,70 +304,49 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@708a898a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@118852a
 [debug] 		tried /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-common/2.2.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
 [debug] 		tried http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
-[debug] 	public: found md file for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
-[debug] 		=> http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom (2.2.0)
-[debug] downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (2371ms)
-[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
-[debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
-[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 in public
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
+[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	public: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
+[warn] 	module not found: org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
+[warn] ==== local: tried
+[warn]   /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-common/2.2.0/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10675130
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@335766ae
 [debug] 		tried /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-yarn-common/2.2.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-common;2.2.0
 [debug] 		tried http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
-[debug] 	public: found md file for org.apache.hadoop#hadoop-yarn-common;2.2.0
-[debug] 		=> http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom (2.2.0)
-[debug] downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (1327ms)
-[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
-[debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn;2.2.0
-[debug] 	found org.apache.hadoop#hadoop-yarn-common;2.2.0 in public
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
+[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	public: no ivy file found for org.apache.hadoop#hadoop-yarn-common;2.2.0
+[warn] 	module not found: org.apache.hadoop#hadoop-yarn-common;2.2.0
+[warn] ==== local: tried
+[warn]   /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-yarn-common/2.2.0/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@264f5973
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4abb4707
 [debug] 		tried /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-yarn-api/2.2.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-api;2.2.0
 [debug] 		tried http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
-[debug] 	public: found md file for org.apache.hadoop#hadoop-yarn-api;2.2.0
-[debug] 		=> http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom (2.2.0)
-[debug] downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (1431ms)
-[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
-[debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn;2.2.0
-[debug] 	found org.apache.hadoop#hadoop-yarn-api;2.2.0 in public
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
+[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	public: no ivy file found for org.apache.hadoop#hadoop-yarn-api;2.2.0
+[warn] 	module not found: org.apache.hadoop#hadoop-yarn-api;2.2.0
+[warn] ==== local: tried
+[warn]   /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-yarn-api/2.2.0/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-log4j12;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26093832
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6504dad3
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-log4j12;1.7.5
 [debug] 	local: revision in cache: org.slf4j#slf4j-log4j12;1.7.5
 [debug] 	found org.slf4j#slf4j-log4j12;1.7.5 in sbt-chain
@@ -376,7 +355,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.google.inject#guice;3.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ca2083b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@708707c1
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;3.0
 [debug] 	local: revision in cache: com.google.inject#guice;3.0
 [debug] 	found com.google.inject#guice;3.0 in sbt-chain
@@ -385,7 +364,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.google.inject#guice;3.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@384c8541
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ba7961b
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	local: revision in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
@@ -394,7 +373,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4db9dfea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46916b0c
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	local: revision in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
@@ -403,7 +382,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->default(compile)]
 [info] Resolving org.sonatype.sisu.inject#cglib;2.2.1-v20090111 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d61031a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e5ff3d6
 [debug] sbt-chain: module revision found in cache: org.sonatype.sisu.inject#cglib;2.2.1-v20090111
 [debug] 	local: revision in cache: org.sonatype.sisu.inject#cglib;2.2.1-v20090111
 [debug] 	found org.sonatype.sisu.inject#cglib;2.2.1-v20090111 in sbt-chain
@@ -412,7 +391,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cc19e7c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@214a01dc
 [debug] sbt-chain: module revision found in cache: com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9
 [debug] 	local: revision in cache: com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9
 [debug] 	found com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 in sbt-chain
@@ -421,7 +400,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-server;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey#jersey-server;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4267d347
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dcfdbec
 [debug] sbt-chain: module revision found in cache: com.sun.jersey#jersey-server;1.9
 [debug] 	local: revision in cache: com.sun.jersey#jersey-server;1.9
 [debug] 	found com.sun.jersey#jersey-server;1.9 in sbt-chain
@@ -430,7 +409,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-server;1.9 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-json;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey#jersey-json;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50ec6fa5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2190a76b
 [debug] sbt-chain: module revision found in cache: com.sun.jersey#jersey-json;1.9
 [debug] 	local: revision in cache: com.sun.jersey#jersey-json;1.9
 [debug] 	found com.sun.jersey#jersey-json;1.9 in sbt-chain
@@ -439,7 +418,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-json;1.9 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jettison#jettison;1.1 [compile->default(compile)]
 [info] Resolving org.codehaus.jettison#jettison;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c25ef45
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f327536
 [debug] sbt-chain: module revision found in cache: org.codehaus.jettison#jettison;1.1
 [debug] 	local: revision in cache: org.codehaus.jettison#jettison;1.1
 [debug] 	found org.codehaus.jettison#jettison;1.1 in sbt-chain
@@ -448,7 +427,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jettison#jettison;1.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [compile->default(compile)]
 [info] Resolving com.sun.xml.bind#jaxb-impl;2.2.3-1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ef13fd3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e56d6b7
 [debug] sbt-chain: module revision found in cache: com.sun.xml.bind#jaxb-impl;2.2.3-1
 [debug] 	local: revision in cache: com.sun.xml.bind#jaxb-impl;2.2.3-1
 [debug] 	found com.sun.xml.bind#jaxb-impl;2.2.3-1 in sbt-chain
@@ -457,7 +436,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->javax.xml.bind#jaxb-api;2.2.2 [compile->default(compile)]
 [info] Resolving javax.xml.bind#jaxb-api;2.2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@284a2a79
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a443fb8
 [debug] sbt-chain: module revision found in cache: javax.xml.bind#jaxb-api;2.2.2
 [debug] 	local: revision in cache: javax.xml.bind#jaxb-api;2.2.2
 [debug] 	found javax.xml.bind#jaxb-api;2.2.2 in sbt-chain
@@ -466,7 +445,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->javax.xml.bind#jaxb-api;2.2.2 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->javax.activation#activation;1.1 [compile->default(compile)]
 [info] Resolving javax.activation#activation;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e5d2997
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64805eff
 [debug] sbt-chain: module revision found in cache: javax.activation#activation;1.1
 [debug] 	local: revision in cache: javax.activation#activation;1.1
 [debug] 	found javax.activation#activation;1.1 in sbt-chain
@@ -475,7 +454,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->javax.activation#activation;1.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.8 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-jaxrs;1.8.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60877151
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19d565f1
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-jaxrs;1.8.8
 [debug] 	local: revision in cache: org.codehaus.jackson#jackson-jaxrs;1.8.8
 [debug] 	found org.codehaus.jackson#jackson-jaxrs;1.8.8 in sbt-chain
@@ -484,7 +463,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.8 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-xc;1.8.8 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-xc;1.8.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cc994c0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50f3dde0
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-xc;1.8.8
 [debug] 	local: revision in cache: org.codehaus.jackson#jackson-xc;1.8.8
 [debug] 	found org.codehaus.jackson#jackson-xc;1.8.8 in sbt-chain
@@ -493,7 +472,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-xc;1.8.8 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey.contribs#jersey-guice;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3256fa96
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17118163
 [debug] sbt-chain: module revision found in cache: com.sun.jersey.contribs#jersey-guice;1.9
 [debug] 	local: revision in cache: com.sun.jersey.contribs#jersey-guice;1.9
 [debug] 	found com.sun.jersey.contribs#jersey-guice;1.9 in sbt-chain
@@ -502,7 +481,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@702b6bea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25f57c00
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-client;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn-client;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-client;2.2.0 in sbt-chain
@@ -511,7 +490,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a64b7a6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@225b482f
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 in sbt-chain
@@ -520,7 +499,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69e66c25
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7eb566f7
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server-common;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn-server-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-server-common;2.2.0 in sbt-chain
@@ -529,28 +508,21 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e28b28e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a17e791
 [debug] 		tried /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-shuffle/2.2.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
 [debug] 		tried http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
-[debug] 	public: found md file for org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
-[debug] 		=> http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom (2.2.0)
-[debug] downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (1636ms)
-[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
-[debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
-[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 in public
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
+[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	public: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
+[warn] 	module not found: org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
+[warn] ==== local: tried
+[warn]   /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-shuffle/2.2.0/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f2ea391
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7775f812
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 in sbt-chain
@@ -559,43 +531,21 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d0d73e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21712734
 [debug] 		tried /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-yarn-server-nodemanager/2.2.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
 [debug] 		tried http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
-[debug] 	public: found md file for org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
-[debug] 		=> http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom (2.2.0)
-[debug] downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.pom(pom.original) (2453ms)
-[info] Resolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}
-[debug] 		tried /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-yarn-server/2.2.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-server;2.2.0
-[debug] 		tried http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom
-[debug] 	public: found md file for org.apache.hadoop#hadoop-yarn-server;2.2.0
-[debug] 		=> http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom (2.2.0)
-[debug] downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server;2.2.0!hadoop-yarn-server.pom(pom.original) (1529ms)
-[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
-[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
-[debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn;2.2.0
-[debug] 		tried /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-yarn-server/2.2.0/jars/hadoop-yarn-server.jar
-[debug] 		tried http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
-[debug] 	found org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 in public
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
+[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	public: no ivy file found for org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
+[warn] 	module not found: org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
+[warn] ==== local: tried
+[warn]   /Users/shrinidhihudli/.ivy2/local/org.apache.hadoop/hadoop-yarn-server-nodemanager/2.2.0/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-common_2.11;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4067b333
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2222d113
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-common_2.11;1.2.0
 [debug] 	local: revision in cache: org.apache.spark#spark-network-common_2.11;1.2.0
 [debug] 	found org.apache.spark#spark-network-common_2.11;1.2.0 in sbt-chain
@@ -604,7 +554,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->io.netty#netty-all;4.0.23.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-all;4.0.23.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b12690b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cf2b4e3
 [debug] sbt-chain: module revision found in cache: io.netty#netty-all;4.0.23.Final
 [debug] 	local: revision in cache: io.netty#netty-all;4.0.23.Final
 [debug] 	found io.netty#netty-all;4.0.23.Final in sbt-chain
@@ -613,7 +563,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->io.netty#netty-all;4.0.23.Final [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->default(compile)]
 [info] Resolving org.spark-project.spark#unused;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e5a2b55
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d534021
 [debug] sbt-chain: module revision found in cache: org.spark-project.spark#unused;1.0.0
 [debug] 	local: revision in cache: org.spark-project.spark#unused;1.0.0
 [debug] 	found org.spark-project.spark#unused;1.0.0 in sbt-chain
@@ -622,7 +572,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-shuffle_2.11;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@375847d0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4da5c9a
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-shuffle_2.11;1.2.0
 [debug] 	local: revision in cache: org.apache.spark#spark-network-shuffle_2.11;1.2.0
 [debug] 	found org.apache.spark#spark-network-shuffle_2.11;1.2.0 in sbt-chain
@@ -631,7 +581,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;1.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->default(compile)]
 [info] Resolving net.java.dev.jets3t#jets3t;0.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@494a9c1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@127ae633
 [debug] sbt-chain: module revision found in cache: net.java.dev.jets3t#jets3t;0.7.1
 [debug] 	local: revision in cache: net.java.dev.jets3t#jets3t;0.7.1
 [debug] 	found net.java.dev.jets3t#jets3t;0.7.1 in sbt-chain
@@ -640,7 +590,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-recipes;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7825e404
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d2f2174
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-recipes;2.4.0
 [debug] 	local: revision in cache: org.apache.curator#curator-recipes;2.4.0
 [debug] 	found org.apache.curator#curator-recipes;2.4.0 in sbt-chain
@@ -649,7 +599,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-framework;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d11b3fe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@204726fb
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-framework;2.4.0
 [debug] 	local: revision in cache: org.apache.curator#curator-framework;2.4.0
 [debug] 	found org.apache.curator#curator-framework;2.4.0 in sbt-chain
@@ -658,7 +608,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-client;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2820cf2f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60aa2dee
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-client;2.4.0
 [debug] 	local: revision in cache: org.apache.curator#curator-client;2.4.0
 [debug] 	found org.apache.curator#curator-client;2.4.0 in sbt-chain
@@ -667,7 +617,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->default(compile)]
 [info] Resolving org.apache.zookeeper#zookeeper;3.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d032538
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@608bc900
 [debug] sbt-chain: module revision found in cache: org.apache.zookeeper#zookeeper;3.4.5
 [debug] 	local: revision in cache: org.apache.zookeeper#zookeeper;3.4.5
 [debug] 	found org.apache.zookeeper#zookeeper;3.4.5 in sbt-chain
@@ -676,7 +626,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->jline#jline;0.9.94 [compile->default(compile)]
 [info] Resolving jline#jline;0.9.94 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68ac606
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5df10018
 [debug] sbt-chain: module revision found in cache: jline#jline;0.9.94
 [debug] 	local: revision in cache: jline#jline;0.9.94
 [debug] 	found jline#jline;0.9.94 in sbt-chain
@@ -685,7 +635,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->jline#jline;0.9.94 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.google.guava#guava;14.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;14.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a7ee928
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d891bbc
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;14.0.1
 [debug] 	local: revision in cache: com.google.guava#guava;14.0.1
 [debug] 	found com.google.guava#guava;14.0.1 in sbt-chain
@@ -694,7 +644,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.google.guava#guava;14.0.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-plus;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-plus;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76a294fa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@448f7374
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-plus;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-plus;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-plus;8.1.14.v20131031 in sbt-chain
@@ -703,7 +653,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-plus;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24e04582
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bcc8b11
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645
 [debug] 	local: revision in cache: org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645
 [debug] 	found org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 in sbt-chain
@@ -712,7 +662,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47ffa230
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45c03ec2
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-webapp;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 in sbt-chain
@@ -721,7 +671,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-webapp;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-xml;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-xml;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5aa81cb1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14c26b19
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-xml;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-xml;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-xml;8.1.14.v20131031 in sbt-chain
@@ -730,7 +680,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-xml;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e9c33a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e5eb392
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-util;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.14.v20131031 in sbt-chain
@@ -739,7 +689,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7efc3b1e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32c8cbff
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-servlet;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-servlet;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 in sbt-chain
@@ -748,7 +698,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-servlet;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-security;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-security;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73a808a0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7712712b
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-security;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-security;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-security;8.1.14.v20131031 in sbt-chain
@@ -757,7 +707,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-security;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-server;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7882d8db
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@736b6dce
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-server;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-server;8.1.14.v20131031 in sbt-chain
@@ -766,7 +716,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@490a8c3e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5eab946a
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
 [debug] 	local: revision in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
 [debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
@@ -775,7 +725,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2019465c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bd170fa
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-continuation;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 in sbt-chain
@@ -784,7 +734,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-continuation;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c1ba6f9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62ce8a4f
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-http;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.14.v20131031 in sbt-chain
@@ -793,7 +743,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e9968eb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@111c1208
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-io;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.14.v20131031 in sbt-chain
@@ -802,7 +752,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a6f9d5b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4afd61f9
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-jndi;8.1.14.v20131031
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-jndi;8.1.14.v20131031
 [debug] 	found org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 in sbt-chain
@@ -811,7 +761,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty#jetty-jndi;8.1.14.v20131031 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dd2fd5f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2feae476
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020
 [debug] 	local: revision in cache: org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020
 [debug] 	found org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 in sbt-chain
@@ -820,7 +770,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d34fb67
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77efabc1
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233
 [debug] 	local: revision in cache: org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233
 [debug] 	found org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 in sbt-chain
@@ -829,7 +779,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43997dd8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29a62ad5
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.3.2
 [debug] 	local: revision in cache: org.apache.commons#commons-lang3;3.3.2
 [debug] 	found org.apache.commons#commons-lang3;3.3.2 in sbt-chain
@@ -838,7 +788,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math3;3.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@246d931b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@143be004
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.1.1
 [debug] 	local: revision in cache: org.apache.commons#commons-math3;3.1.1
 [debug] 	found org.apache.commons#commons-math3;3.1.1 in sbt-chain
@@ -847,7 +797,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.commons#commons-math3;3.1.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@545e4c82
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e8dbbcd
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.5
 [debug] 	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.5
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.5 in sbt-chain
@@ -856,7 +806,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.5 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cf6b5c0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39f32b3c
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.5
 [debug] 	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.5
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.5 in sbt-chain
@@ -865,7 +815,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.ning#compress-lzf;1.0.0 [compile->default(compile)]
 [info] Resolving com.ning#compress-lzf;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58c601dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d549e1f
 [debug] sbt-chain: module revision found in cache: com.ning#compress-lzf;1.0.0
 [debug] 	local: revision in cache: com.ning#compress-lzf;1.0.0
 [debug] 	found com.ning#compress-lzf;1.0.0 in sbt-chain
@@ -874,7 +824,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.ning#compress-lzf;1.0.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->default(compile)]
 [info] Resolving org.xerial.snappy#snappy-java;1.1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41f6530c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c8e9cbc
 [debug] sbt-chain: module revision found in cache: org.xerial.snappy#snappy-java;1.1.1.6
 [debug] 	local: revision in cache: org.xerial.snappy#snappy-java;1.1.1.6
 [debug] 	found org.xerial.snappy#snappy-java;1.1.1.6 in sbt-chain
@@ -883,7 +833,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->net.jpountz.lz4#lz4;1.2.0 [compile->default(compile)]
 [info] Resolving net.jpountz.lz4#lz4;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48a3eac1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18a791a8
 [debug] sbt-chain: module revision found in cache: net.jpountz.lz4#lz4;1.2.0
 [debug] 	local: revision in cache: net.jpountz.lz4#lz4;1.2.0
 [debug] 	found net.jpountz.lz4#lz4;1.2.0 in sbt-chain
@@ -892,7 +842,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->net.jpountz.lz4#lz4;1.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->default(compile)]
 [info] Resolving org.roaringbitmap#RoaringBitmap;0.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ac3483d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@602822bc
 [debug] sbt-chain: module revision found in cache: org.roaringbitmap#RoaringBitmap;0.4.5
 [debug] 	local: revision in cache: org.roaringbitmap#RoaringBitmap;0.4.5
 [debug] 	found org.roaringbitmap#RoaringBitmap;0.4.5 in sbt-chain
@@ -901,7 +851,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-net#commons-net;2.2 [compile->default(compile)]
 [info] Resolving commons-net#commons-net;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69455d3e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e69dba9
 [debug] sbt-chain: module revision found in cache: commons-net#commons-net;2.2
 [debug] 	local: revision in cache: commons-net#commons-net;2.2
 [debug] 	found commons-net#commons-net;2.2 in sbt-chain
@@ -910,7 +860,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-net#commons-net;2.2 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-remote_2.11;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-remote_2.11;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e786cad
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46db82c2
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-remote_2.11;2.3.4-spark
 [debug] 	local: revision in cache: org.spark-project.akka#akka-remote_2.11;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-remote_2.11;2.3.4-spark in sbt-chain
@@ -919,7 +869,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-remote_2.11;2.3.4-spark [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-actor_2.11;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-actor_2.11;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4630a9e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64123921
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-actor_2.11;2.3.4-spark
 [debug] 	local: revision in cache: org.spark-project.akka#akka-actor_2.11;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-actor_2.11;2.3.4-spark in sbt-chain
@@ -928,7 +878,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-actor_2.11;2.3.4-spark [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dda4cde
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b7f69c
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	local: revision in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
@@ -937,7 +887,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.8.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17d0b6e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7130d6de
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final
 [debug] 	local: revision in cache: io.netty#netty;3.8.0.Final
 [debug] 	found io.netty#netty;3.8.0.Final in sbt-chain
@@ -946,7 +896,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->default(compile)]
 [info] Resolving org.spark-project.protobuf#protobuf-java;2.5.0-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39b99af3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55df4bd1
 [debug] sbt-chain: module revision found in cache: org.spark-project.protobuf#protobuf-java;2.5.0-spark
 [debug] 	local: revision in cache: org.spark-project.protobuf#protobuf-java;2.5.0-spark
 [debug] 	found org.spark-project.protobuf#protobuf-java;2.5.0-spark in sbt-chain
@@ -955,7 +905,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ed14064
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32bb39d0
 [debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
 [debug] 	local: revision in cache: org.uncommons.maths#uncommons-maths;1.2.2a
 [debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
@@ -964,7 +914,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@723f5feb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32f5c535
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark
 [debug] 	local: revision in cache: org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark in sbt-chain
@@ -973,7 +923,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-jackson_2.11;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42831716
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3665a9c2
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-jackson_2.11;3.2.10
 [debug] 	local: revision in cache: org.json4s#json4s-jackson_2.11;3.2.10
 [debug] 	found org.json4s#json4s-jackson_2.11;3.2.10 in sbt-chain
@@ -982,7 +932,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.10 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.json4s#json4s-core_2.11;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-core_2.11;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ac36726
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@775d1f67
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.11;3.2.10
 [debug] 	local: revision in cache: org.json4s#json4s-core_2.11;3.2.10
 [debug] 	found org.json4s#json4s-core_2.11;3.2.10 in sbt-chain
@@ -991,7 +941,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.json4s#json4s-core_2.11;3.2.10 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-ast_2.11;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40acdce0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ad8390e
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.11;3.2.10
 [debug] 	local: revision in cache: org.json4s#json4s-ast_2.11;3.2.10
 [debug] 	found org.json4s#json4s-ast_2.11;3.2.10 in sbt-chain
@@ -1000,7 +950,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.10 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c3c95a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72962037
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	local: revision in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
@@ -1009,7 +959,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scalap;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f173b0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@618e840f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.11.0
 [debug] 	local: revision in cache: org.scala-lang#scalap;2.11.0
 [debug] 	found org.scala-lang#scalap;2.11.0 in sbt-chain
@@ -1018,7 +968,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56b8f3a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@370c3ced
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.0
 [debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.0
 [debug] 	found org.scala-lang#scala-compiler;2.11.0 in sbt-chain
@@ -1027,7 +977,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@540db2d4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@400dc9a
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.0
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.11.0
 [debug] 	found org.scala-lang#scala-reflect;2.11.0 in sbt-chain
@@ -1037,7 +987,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2dd9c29b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4abe2c43
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
@@ -1046,7 +996,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60ba23f0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a84400
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
@@ -1055,7 +1005,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42f333fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@436d1e10
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.1
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.3.1
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.1 in sbt-chain
@@ -1064,7 +1014,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@722af35f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f7b0e3e
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.0
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.0
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.0 in sbt-chain
@@ -1073,7 +1023,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@404f49b1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79df6065
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.1
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.3.1
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.1 in sbt-chain
@@ -1082,7 +1032,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.mesos#mesos;0.18.1 [compile->default(compile)]
 [info] Resolving org.apache.mesos#mesos;0.18.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b26ca3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f421232
 [debug] sbt-chain: module revision found in cache: org.apache.mesos#mesos;0.18.1
 [debug] 	local: revision in cache: org.apache.mesos#mesos;0.18.1
 [debug] 	found org.apache.mesos#mesos;0.18.1 in sbt-chain
@@ -1091,7 +1041,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.mesos#mesos;0.18.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.clearspring.analytics#stream;2.7.0 [compile->default(compile)]
 [info] Resolving com.clearspring.analytics#stream;2.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ace5cc5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@363969ef
 [debug] sbt-chain: module revision found in cache: com.clearspring.analytics#stream;2.7.0
 [debug] 	local: revision in cache: com.clearspring.analytics#stream;2.7.0
 [debug] 	found com.clearspring.analytics#stream;2.7.0 in sbt-chain
@@ -1100,7 +1050,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.clearspring.analytics#stream;2.7.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.codahale.metrics#metrics-core;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-core;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dfb3c7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43c30d08
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-core;3.0.0
 [debug] 	local: revision in cache: com.codahale.metrics#metrics-core;3.0.0
 [debug] 	found com.codahale.metrics#metrics-core;3.0.0 in sbt-chain
@@ -1109,7 +1059,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.codahale.metrics#metrics-core;3.0.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.codahale.metrics#metrics-jvm;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-jvm;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@611bf8bb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14b3b76e
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-jvm;3.0.0
 [debug] 	local: revision in cache: com.codahale.metrics#metrics-jvm;3.0.0
 [debug] 	found com.codahale.metrics#metrics-jvm;3.0.0 in sbt-chain
@@ -1118,7 +1068,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.codahale.metrics#metrics-jvm;3.0.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.codahale.metrics#metrics-json;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-json;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72c9d874
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35801bdb
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-json;3.0.0
 [debug] 	local: revision in cache: com.codahale.metrics#metrics-json;3.0.0
 [debug] 	found com.codahale.metrics#metrics-json;3.0.0 in sbt-chain
@@ -1127,7 +1077,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.codahale.metrics#metrics-json;3.0.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.codahale.metrics#metrics-graphite;3.0.0 [compile->default(compile)]
 [info] Resolving com.codahale.metrics#metrics-graphite;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@199ee1bc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d462f5b
 [debug] sbt-chain: module revision found in cache: com.codahale.metrics#metrics-graphite;3.0.0
 [debug] 	local: revision in cache: com.codahale.metrics#metrics-graphite;3.0.0
 [debug] 	found com.codahale.metrics#metrics-graphite;3.0.0 in sbt-chain
@@ -1136,7 +1086,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->com.codahale.metrics#metrics-graphite;3.0.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.tachyonproject#tachyon-client;0.5.0 [compile->default(compile)]
 [info] Resolving org.tachyonproject#tachyon-client;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@286a43f8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@666d6674
 [debug] sbt-chain: module revision found in cache: org.tachyonproject#tachyon-client;0.5.0
 [debug] 	local: revision in cache: org.tachyonproject#tachyon-client;0.5.0
 [debug] 	found org.tachyonproject#tachyon-client;0.5.0 in sbt-chain
@@ -1145,7 +1095,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.tachyonproject#tachyon-client;0.5.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.tachyonproject#tachyon;0.5.0 [compile->default(compile)]
 [info] Resolving org.tachyonproject#tachyon;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44744b68
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36664f
 [debug] sbt-chain: module revision found in cache: org.tachyonproject#tachyon;0.5.0
 [debug] 	local: revision in cache: org.tachyonproject#tachyon;0.5.0
 [debug] 	found org.tachyonproject#tachyon;0.5.0 in sbt-chain
@@ -1154,7 +1104,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.tachyonproject#tachyon;0.5.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-io#commons-io;2.4 [compile->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@607c7cbd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42f42c43
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	local: revision in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
@@ -1163,7 +1113,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->commons-io#commons-io;2.4 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project#pyrolite;2.0.1 [compile->default(compile)]
 [info] Resolving org.spark-project#pyrolite;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d90158f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72dbab3d
 [debug] sbt-chain: module revision found in cache: org.spark-project#pyrolite;2.0.1
 [debug] 	local: revision in cache: org.spark-project#pyrolite;2.0.1
 [debug] 	found org.spark-project#pyrolite;2.0.1 in sbt-chain
@@ -1172,7 +1122,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.spark-project#pyrolite;2.0.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->net.sf.py4j#py4j;0.8.2.1 [compile->default(compile)]
 [info] Resolving net.sf.py4j#py4j;0.8.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f80da9c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48111e52
 [debug] sbt-chain: module revision found in cache: net.sf.py4j#py4j;0.8.2.1
 [debug] 	local: revision in cache: net.sf.py4j#py4j;0.8.2.1
 [debug] 	found net.sf.py4j#py4j;0.8.2.1 in sbt-chain
@@ -1181,7 +1131,7 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->net.sf.py4j#py4j;0.8.2.1 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->javax.servlet#javax.servlet-api;3.0.1 [compile->default(compile)]
 [info] Resolving javax.servlet#javax.servlet-api;3.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a545a84
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3762c716
 [debug] sbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.0.1
 [debug] 	local: revision in cache: javax.servlet#javax.servlet-api;3.0.1
 [debug] 	found javax.servlet#javax.servlet-api;3.0.1 in sbt-chain
@@ -1324,17 +1274,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile]
@@ -1408,17 +1349,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->compile]
@@ -1816,17 +1751,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile]
@@ -1900,17 +1826,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->compile]
@@ -2312,17 +2232,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile]
@@ -2396,17 +2307,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->compile]
@@ -2804,17 +2709,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile]
@@ -2888,17 +2784,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->compile]
@@ -3296,17 +3186,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [test->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [test->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [test->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [test->compile]
@@ -3380,17 +3261,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [test->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [test->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [test->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [test->compile]
@@ -3795,17 +3670,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile]
@@ -3879,17 +3745,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->compile]
@@ -4289,17 +4149,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile-internal->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile-internal->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile-internal->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile-internal->compile]
@@ -4373,17 +4224,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile-internal->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile-internal->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile-internal->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile-internal->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile-internal->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile-internal->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile-internal->compile]
@@ -4785,17 +4630,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile]
@@ -4869,17 +4705,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->compile]
@@ -5277,17 +5107,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile]
@@ -5361,17 +5182,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->compile]
@@ -5770,17 +5585,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime-internal->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime-internal->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime-internal->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime-internal->compile]
@@ -5854,17 +5660,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime-internal->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime-internal->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime-internal->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime-internal->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime-internal->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime-internal->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime-internal->compile]
@@ -6267,17 +6067,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile]
@@ -6351,17 +6142,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [compile->compile]
@@ -6759,17 +6544,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile]
@@ -6843,17 +6619,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [runtime->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [runtime->compile]
@@ -7251,17 +7021,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [test->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [test->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [test->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [test->compile]
@@ -7335,17 +7096,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [test->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [test->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [test->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [test->compile]
@@ -7745,17 +7500,8 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [test-internal->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [test-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [test-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [test-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [test-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [test-internal->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [test-internal->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.5 [test-internal->compile]
@@ -7829,17 +7575,11 @@
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [test-internal->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [test-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [test-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test-internal->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test-internal->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test-internal->compile]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [test-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test-internal->default(compile)]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test-internal->runtime]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test-internal->compile]
-[debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [test-internal->master]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [test-internal->default(compile)]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [test-internal->runtime]
 [debug] == resolving dependencies performance#performance$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.2.0 [test-internal->compile]
@@ -8199,20 +7939,20 @@
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-annotations;2.2.0!hadoop-annotations.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-annotations;2.2.0!hadoop-annotations.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-annotations;2.2.0!hadoop-annotations.jar
+[debug] 	[NOT REQUIRED] commons-cli#commons-cli;1.2!commons-cli.jar(doc)
 [debug] 	[NOT REQUIRED] commons-cli#commons-cli;1.2!commons-cli.jar
 [debug] 	[NOT REQUIRED] commons-cli#commons-cli;1.2!commons-cli.jar(src)
-[debug] 	[NOT REQUIRED] commons-cli#commons-cli;1.2!commons-cli.jar(doc)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar(src)
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.4!commons-codec.jar(doc)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.4!commons-codec.jar(src)
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.4!commons-codec.jar(doc)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.4!commons-codec.jar
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(doc)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(doc)
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(doc)
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
@@ -8221,14 +7961,14 @@
 [debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.5!commons-lang.jar
 [debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar
 [debug] 	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar(src)
-[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar
-[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar(src)
 [debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar(doc)
-[debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar(src)
+[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar(src)
+[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar
 [debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar
-[debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar
-[debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar(src)
+[debug] 	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar(src)
 [debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar(doc)
+[debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar(src)
+[debug] 	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.8.8!jackson-core-asl.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.8.8!jackson-core-asl.jar
 [debug] 	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.8.8!jackson-mapper-asl.jar(src)
@@ -8236,39 +7976,30 @@
 [debug] 	[NOT REQUIRED] org.apache.avro#avro;1.7.4!avro.jar
 [debug] 	[NOT REQUIRED] org.apache.avro#avro;1.7.4!avro.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.avro#avro;1.7.4!avro.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar(src)
 [debug] 	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar(doc)
-[debug] 	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar
 [debug] 	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar(src)
+[debug] 	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.4!slf4j-api.jar(doc)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.4!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.4!slf4j-api.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.4!slf4j-api.jar(doc)
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(doc)
 [debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-auth;2.2.0!hadoop-auth.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-auth;2.2.0!hadoop-auth.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-auth;2.2.0!hadoop-auth.jar
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-hdfs;2.2.0!hadoop-hdfs.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-hdfs;2.2.0!hadoop-hdfs.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-hdfs;2.2.0!hadoop-hdfs.jar
+[debug] 	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar(doc)
 [debug] 	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar
-[debug] 	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.jar
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.jar(doc)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.jar
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.jar(doc)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.jar
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.jar
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.jar(doc)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.5!slf4j-log4j12.jar(doc)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.5!slf4j-log4j12.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.5!slf4j-log4j12.jar
@@ -8318,15 +8049,9 @@
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.jar
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.jar(doc)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.jar
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.jar
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.jar
-[debug] 	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-network-common_2.11;1.2.0!spark-network-common_2.11.jar
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-network-common_2.11;1.2.0!spark-network-common_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-network-common_2.11;1.2.0!spark-network-common_2.11.jar(doc)
@@ -8339,8 +8064,8 @@
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.11;1.2.0!spark-network-shuffle_2.11.jar
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.11;1.2.0!spark-network-shuffle_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.11;1.2.0!spark-network-shuffle_2.11.jar(doc)
-[debug] 	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar(src)
 [debug] 	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar
+[debug] 	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar(doc)
@@ -8350,9 +8075,9 @@
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar
 [debug] 	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar(doc)
+[debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar(doc)
 [debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar
 [debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;0.9.94!jline.jar
 [debug] 	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar
@@ -8532,7 +8257,16 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12!jline.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;2.12!jline.jar(src)
-[debug] :: resolution report :: resolve 16289ms :: artifacts dl 89ms
+[debug] :: resolution report :: resolve 3142ms :: artifacts dl 90ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::          UNRESOLVED DEPENDENCIES         ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0: not found
+[warn] 	:: org.apache.hadoop#hadoop-yarn-common;2.2.0: not found
+[warn] 	:: org.apache.hadoop#hadoop-yarn-api;2.2.0: not found
+[warn] 	:: org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0: not found
+[warn] 	:: org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0: not found
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [debug] 	report for performance#performance$sources_javadoc_2.11;1.0 compile produced in /Users/shrinidhihudli/Documents/Condie/Project/Performance/target/resolution-cache/reports/performance-performance$sources_javadoc_2.11-compile.xml
 [debug] 	report for performance#performance$sources_javadoc_2.11;1.0 runtime produced in /Users/shrinidhihudli/Documents/Condie/Project/Performance/target/resolution-cache/reports/performance-performance$sources_javadoc_2.11-runtime.xml
 [debug] 	report for performance#performance$sources_javadoc_2.11;1.0 test produced in /Users/shrinidhihudli/Documents/Condie/Project/Performance/target/resolution-cache/reports/performance-performance$sources_javadoc_2.11-test.xml
@@ -8546,4 +8280,4 @@
 [debug] 	report for performance#performance$sources_javadoc_2.11;1.0 docs produced in /Users/shrinidhihudli/Documents/Condie/Project/Performance/target/resolution-cache/reports/performance-performance$sources_javadoc_2.11-docs.xml
 [debug] 	report for performance#performance$sources_javadoc_2.11;1.0 pom produced in /Users/shrinidhihudli/Documents/Condie/Project/Performance/target/resolution-cache/reports/performance-performance$sources_javadoc_2.11-pom.xml
 [debug] 	report for performance#performance$sources_javadoc_2.11;1.0 scala-tool produced in /Users/shrinidhihudli/Documents/Condie/Project/Performance/target/resolution-cache/reports/performance-performance$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (16289ms resolve - 89ms download)
+[debug] 	resolve done (3142ms resolve - 90ms download)
