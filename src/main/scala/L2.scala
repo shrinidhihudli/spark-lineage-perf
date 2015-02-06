@@ -1,6 +1,3 @@
-/**
- * Created by shrinidhihudli on 2/5/15.
- */
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
@@ -8,7 +5,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 /**
- * Created by shrinidhihudli on 2/4/15.
+ * Created by shrinidhihudli on 2/5/15.
  *
  * -- This script tests using a join small enough to do in fragment and replicate.
  * register $PIGMIX_JAR
@@ -47,9 +44,14 @@ object L2 {
 
     val beta = alpha.map(x => (x._1,1))
 
+    val broadBeta = sc.broadcast(beta)
+
+    val c1 = B.map(v => (v._1, (broadBeta.value., v._2)))
+
+
     val C = B.join(beta).map(x => (x._1,x._2._1,x._1))
 
-    C.saveAsTextFile("output/L2out")
+    c1.saveAsTextFile("output/L2outnew")
   }
 
   def safeSplit(string: String, delim: String, int: Int):String = {
