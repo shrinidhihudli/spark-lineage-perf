@@ -47,10 +47,9 @@ object L2 {
 
     val beta = alpha.map(x => (x._1,1))
 
-    val C = B.join(beta).map(x => (x._1,x._2._1))
+    val C = B.join(beta).map(x => (x._1,x._2._1,x._1))
 
     C.saveAsTextFile("output/L2out")
-
   }
 
   def safeSplit(string: String, delim: String, int: Int):String = {
