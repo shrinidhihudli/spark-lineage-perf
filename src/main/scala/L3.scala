@@ -38,13 +38,14 @@ object L3 {
     val pageViews = sc.textFile(pageViewsPath)
     val users = sc.textFile(usersPath)
 
-    val A = pageViews.map(x => (safeSplit(x,"\u0001",0), safeSplit(x,"\u0001",1), safeSplit(x,"\u0001",2), safeSplit(x,"\u0001",3),
-      safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6), createMap(safeSplit(x,"\u0001",7)),
-      createBag(safeSplit(x,"\u0001",8))))
+    val A = pageViews.map(x => (safeSplit(x,"\u0001",0), safeSplit(x,"\u0001",1), safeSplit(x,"\u0001",2),
+      safeSplit(x,"\u0001",3), safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6),
+      createMap(safeSplit(x,"\u0001",7)), createBag(safeSplit(x,"\u0001",8))))
 
     val B = A.map(x => (x._1,safeDouble(x._7)))
 
-    val alpha = users.map(x => (safeSplit(x,"\u0001",0),safeSplit(x,"\u0001",1),safeSplit(x,"\u0001",2),safeSplit(x,"\u0001",3),safeSplit(x,"\u0001",4)))
+    val alpha = users.map(x => (safeSplit(x,"\u0001",0),safeSplit(x,"\u0001",1),safeSplit(x,"\u0001",2),
+      safeSplit(x,"\u0001",3),safeSplit(x,"\u0001",4)))
 
     val beta = alpha.map(x => (x._1,1))
 
@@ -52,7 +53,8 @@ object L3 {
 
     val D = C.groupBy(_._1)
 
-    val E = D.map(x => (x._1,x._2.reduce((a,b) => (a._1+b._1,a._2+b._2,a._3+b._3)))).map( x => (x._1,x._2._3)).sortBy(_._1)
+    val E = D.map(x => (x._1,x._2.reduce((a,b) => (a._1+b._1,a._2+b._2,a._3+b._3)))).map( x => (x._1,x._2._3)).
+      sortBy(_._1)
 
     E.saveAsTextFile("output/L3out")
 

@@ -36,9 +36,9 @@ object L4 {
     val pageViews = sc.textFile(pageViewsPath)
     val users = sc.textFile(usersPath)
 
-    val A = pageViews.map(x => (safeSplit(x,"\u0001",0), safeSplit(x,"\u0001",1), safeSplit(x,"\u0001",2), safeSplit(x,"\u0001",3),
-      safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6), createMap(safeSplit(x,"\u0001",7)),
-      createBag(safeSplit(x,"\u0001",8))))
+    val A = pageViews.map(x => (safeSplit(x,"\u0001",0), safeSplit(x,"\u0001",1), safeSplit(x,"\u0001",2),
+      safeSplit(x,"\u0001",3), safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6),
+      createMap(safeSplit(x,"\u0001",7)), createBag(safeSplit(x,"\u0001",8))))
 
     val B = A.map(x => (x._1,x._2))
 

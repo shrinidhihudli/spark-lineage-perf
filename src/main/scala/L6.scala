@@ -33,15 +33,16 @@ object L6 {
     val pageViews = sc.textFile(pageViewsPath)
     val users = sc.textFile(usersPath)
 
-    val A = pageViews.map(x => (safeSplit(x,"\u0001",0), safeSplit(x,"\u0001",1), safeSplit(x,"\u0001",2), safeSplit(x,"\u0001",3),
-      safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6), createMap(safeSplit(x,"\u0001",7)),
-      createBag(safeSplit(x,"\u0001",8))))
+    val A = pageViews.map(x => (safeSplit(x,"\u0001",0), safeSplit(x,"\u0001",1), safeSplit(x,"\u0001",2),
+      safeSplit(x,"\u0001",3), safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6),
+      createMap(safeSplit(x,"\u0001",7)), createBag(safeSplit(x,"\u0001",8))))
 
     val B = A.map(x => (x._1,x._2,x._3.toInt,x._4,x._5,x._6))
 
     val C = B.groupBy(x => (x._1,x._4,x._5,x._6))
 
-    val D = C.map(x => (x._1,x._2.reduce((a,b) => (a._1+b._1,a._2+b._2,a._3+b._3,a._4+b._4,a._5+b._5,a._6+b._6)))).map(x => (x._1._1,x._1._2,x._1._3,x._1._4,x._2._3))
+    val D = C.map(x => (x._1,x._2.reduce((a,b) => (a._1+b._1,a._2+b._2,a._3+b._3,a._4+b._4,a._5+b._5,a._6+b._6))))
+      .map(x => (x._1._1,x._1._2,x._1._3,x._1._4,x._2._3))
 
     D.saveAsTextFile("output/L6out")
 

@@ -35,15 +35,16 @@ object L7 {
     val pageViews = sc.textFile(pageViewsPath)
     val users = sc.textFile(usersPath)
 
-    val A = pageViews.map(x => (safeSplit(x,"\u0001",0), safeSplit(x,"\u0001",1), safeSplit(x,"\u0001",2), safeSplit(x,"\u0001",3),
-      safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6), createMap(safeSplit(x,"\u0001",7)),
-      createBag(safeSplit(x,"\u0001",8))))
+    val A = pageViews.map(x => (safeSplit(x,"\u0001",0), safeSplit(x,"\u0001",1), safeSplit(x,"\u0001",2),
+      safeSplit(x,"\u0001",3), safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6),
+      createMap(safeSplit(x,"\u0001",7)), createBag(safeSplit(x,"\u0001",8))))
 
     val B = A.map(x => (x._1,x._6.toInt))
 
     val C = B.groupBy(_._1)
 
-    val D = C.mapValues(x => (x.map( y => if (y._2 < 43200) "morning" else "afternoon"))).map(x => (x._1,x._2.groupBy(identity))).map(x => (x._1,x._2.mapValues(x => x.size).map(identity)))
+    val D = C.mapValues(x => (x.map( y => if (y._2 < 43200) "morning" else "afternoon")))
+      .map(x => (x._1,x._2.groupBy(identity))).map(x => (x._1,x._2.mapValues(x => x.size).map(identity)))
 
     D.saveAsTextFile("output/L7out")
 
