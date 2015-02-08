@@ -77,4 +77,3 @@ object L2 {
     properties
   }
 }
-

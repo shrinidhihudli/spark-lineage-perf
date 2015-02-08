@@ -37,7 +37,7 @@ object L6 {
       safeSplit(x,"\u0001",3), safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6),
       createMap(safeSplit(x,"\u0001",7)), createBag(safeSplit(x,"\u0001",8))))
 
-    val B = A.map(x => (x._1,x._2,x._3.toInt,x._4,x._5,x._6))
+    val B = A.map(x => (x._1,x._2,safeInt(x._3),x._4,x._5,x._6))
 
     val C = B.groupBy(x => (x._1,x._4,x._5,x._6))
 
@@ -46,6 +46,13 @@ object L6 {
 
     D.saveAsTextFile("output/L6out")
 
+  }
+
+  def safeInt(string: String):Int = {
+    if (string == "")
+      0
+    else
+      string.toInt
   }
 
   def safeDouble(string: String):Double = {
