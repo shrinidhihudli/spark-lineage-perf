@@ -1,7 +1,3 @@
-import java.io.FileInputStream
-import java.util.Properties
-import org.apache.spark.{SparkContext, SparkConf}
-
 /**
  * Created by shrinidhihudli on 2/4/15.
  *
@@ -17,6 +13,11 @@ import org.apache.spark.{SparkContext, SparkConf}
  *    E = foreach D generate group, COUNT(C) as cnt;
  *    store E into '$PIGMIX_OUTPUT/L1out';
  */
+
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkConf
+import java.util.Properties
+import java.io.FileInputStream
 
 object L1 {
   def main(args: Array[String]) {

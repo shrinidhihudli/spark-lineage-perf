@@ -1,19 +1,20 @@
 /**
  * Created by shrinidhihudli on 2/7/15.
  *
- * -- This script covers foreach/generate with a nested distinct.
+ * --This script does an anti-join.  This is useful because it is a use of
+ * --cogroup that is not a regular join.
  * register $PIGMIX_JAR
  * A = load '$HDFS_ROOT/page_views' using org.apache.pig.test.pigmix.udf.PigPerformanceLoader()
- *     as (user, action, timespent, query_term, ip_addr, timestamp,
- *         estimated_revenue, page_info, page_links);
- * B = foreach A generate user, action;
- * C = group B by user parallel $PARALLEL;
- * D = foreach C {
- *     aleph = B.action;
- *    beth = distinct aleph;
- *    generate group, COUNT(beth);
- * }
- * store D into '$PIGMIX_OUTPUT/L4out';
+ *   as (user, action, timespent, query_term, ip_addr, timestamp,
+ *       estimated_revenue, page_info, page_links);
+ * B = foreach A generate user;
+ * alpha = load '$HDFS_ROOT/users' using PigStorage('\u0001') as (name, phone, address,
+ *       city, state, zip);
+ * beta = foreach alpha generate name;
+ * C = cogroup beta by name, B by user parallel $PARALLEL;
+ * D = filter C by COUNT(beta) == 0;
+ * E = foreach D generate group;
+ * store E into '$PIGMIX_OUTPUT/L5out';
  */
 
 import org.apache.spark.SparkContext
@@ -22,7 +23,7 @@ import org.apache.spark.SparkConf
 import java.util.Properties
 import java.io.FileInputStream
 
-object L4 {
+object L5 {
   def main(args: Array[String]) {
 
     val properties: Properties = loadPropertiesFile()
@@ -40,13 +41,19 @@ object L4 {
       safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6), createMap(safeSplit(x,"\u0001",7)),
       createBag(safeSplit(x,"\u0001",8))))
 
-    val B = A.map(x => (x._1,x._2))
+    val B = A.map(x => (x._1,x._1))
 
-    val C = B.groupBy(_._1)
+    val alpha = users.map(x => (safeSplit(x,"\u0001",0),safeSplit(x,"\u0001",1),safeSplit(x,"\u0001",2),safeSplit(x,"\u0001",3),safeSplit(x,"\u0001",4)))
 
-    val D = C.mapValues(_.toSet.size)
+    val beta = alpha.map(x => (x._1,x._1))
 
-    D.saveAsTextFile("output/L4out")
+    val C = beta.cogroup(B)
+
+    val D = C.filter(x => (x._2._1.size == 0))
+
+    val E = D.map(_._1)
+
+    E.saveAsTextFile("output/L5out")
 
   }
 
@@ -83,4 +90,3 @@ object L4 {
     properties
   }
 }
-

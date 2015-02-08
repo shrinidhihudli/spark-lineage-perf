@@ -1,9 +1,3 @@
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkContext._
-import org.apache.spark.SparkConf
-import java.util.Properties
-import java.io.FileInputStream
-
 /**
  * Created by shrinidhihudli on 2/5/15.
  *
@@ -19,6 +13,12 @@ import java.io.FileInputStream
  * C = join B by user, beta by name using 'replicated' parallel $PARALLEL;
  * store C into '$PIGMIX_OUTPUT/L2out';
  */
+
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+import java.util.Properties
+import java.io.FileInputStream
 
 object L2 {
   def main(args: Array[String]) {

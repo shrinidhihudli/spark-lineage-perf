@@ -1,9 +1,3 @@
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkContext._
-import org.apache.spark.SparkConf
-import java.util.Properties
-import java.io.FileInputStream
-
 /**
  * Created by shrinidhihudli on 2/6/15.
  *
@@ -23,6 +17,12 @@ import java.io.FileInputStream
  * E = foreach D generate group, SUM(C.estimated_revenue);
  * store E into '$PIGMIX_OUTPUT/L3out';
  */
+
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+import java.util.Properties
+import java.io.FileInputStream
 
 object L3 {
   def main(args: Array[String]) {
