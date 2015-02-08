@@ -1,20 +1,14 @@
 /**
- * Created by shrinidhihudli on 2/7/15.
+ * Created by shrinidhihudli on 2/8/15.
  *
- * --This script does an anti-join.  This is useful because it is a use of
- * --cogroup that is not a regular join.
+ * --This script covers order by of a single value.
  * register $PIGMIX_JAR
  * A = load '$HDFS_ROOT/page_views' using org.apache.pig.test.pigmix.udf.PigPerformanceLoader()
- *   as (user, action, timespent, query_term, ip_addr, timestamp,
- *       estimated_revenue, page_info, page_links);
- * B = foreach A generate user;
- * alpha = load '$HDFS_ROOT/users' using PigStorage('\u0001') as (name, phone, address,
- *       city, state, zip);
- * beta = foreach alpha generate name;
- * C = cogroup beta by name, B by user parallel $PARALLEL;
- * D = filter C by COUNT(beta) == 0;
- * E = foreach D generate group;
- * store E into '$PIGMIX_OUTPUT/L5out';
+ *     as (user, action, timespent, query_term, ip_addr, timestamp,
+ *         estimated_revenue, page_info, page_links);
+ * B = order A by query_term parallel $PARALLEL;
+ * store B into '$PIGMIX_OUTPUT/L9out';
+ *
  */
 
 import org.apache.spark.SparkContext
@@ -22,8 +16,9 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 import java.util.Properties
 import java.io.FileInputStream
+import java.io._
 
-object L5 {
+object L9 {
   def main(args: Array[String]) {
 
     val properties: Properties = loadPropertiesFile()
@@ -41,20 +36,9 @@ object L5 {
       safeSplit(x,"\u0001",3), safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6),
       createMap(safeSplit(x,"\u0001",7)), createBag(safeSplit(x,"\u0001",8))))
 
-    val B = A.map(x => (x._1,x._1))
+    val B = A.sortBy(_._4)
 
-    val alpha = users.map(x => (safeSplit(x,"\u0001",0),safeSplit(x,"\u0001",1),safeSplit(x,"\u0001",2),
-      safeSplit(x,"\u0001",3),safeSplit(x,"\u0001",4)))
-
-    val beta = alpha.map(x => (x._1,x._1))
-
-    val C = beta.cogroup(B)
-
-    val D = C.filter(x => x._2._1.size == 0)
-
-    val E = D.map(_._1)
-
-    E.saveAsTextFile("output/L5out")
+    B.saveAsTextFile("output/L9out")
 
   }
 

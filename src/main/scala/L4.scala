@@ -50,13 +50,6 @@ object L4 {
 
   }
 
-  def safeDouble(string: String):Double = {
-    if (string == "")
-      0
-    else
-      string.toDouble
-  }
-
   def safeSplit(string: String, delim: String, int: Int):String = {
     val split = string.split(delim)
     if (split.size > int)

@@ -45,7 +45,7 @@ object L7 {
 
     val C = B.groupBy(_._1)
 
-    val D = C.mapValues(x => (x.map( y => if (y._2 < 43200) "morning" else "afternoon")))
+    val D = C.mapValues(x => x.map( y => if (y._2 < 43200) "morning" else "afternoon"))
       .map(x => (x._1,x._2.groupBy(identity))).map(x => (x._1,x._2.mapValues(x => x.size).map(identity)))
 
     D.saveAsTextFile("output/L7out")
@@ -57,13 +57,6 @@ object L7 {
       0
     else
       string.toInt
-  }
-
-  def safeDouble(string: String):Double = {
-    if (string == "")
-      0
-    else
-      string.toDouble
   }
 
   def safeSplit(string: String, delim: String, int: Int):String = {
