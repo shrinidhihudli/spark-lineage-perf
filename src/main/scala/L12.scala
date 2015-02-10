@@ -35,7 +35,6 @@ object L12 {
 
     val pigMixPath = properties.getProperty("pigMix")
     val pageViewsPath = pigMixPath + "page_views/"
-    val widerowPath = pigMixPath + "widerow/"
 
     val conf = new SparkConf().setAppName("Simple Application").setMaster("local")
     val sc = new SparkContext(conf)
