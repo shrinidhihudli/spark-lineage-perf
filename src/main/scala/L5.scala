@@ -52,7 +52,7 @@ object L5 {
 
     val D = C.filter(x => x._2._1.size == 0)
 
-    val E = D.map(_._1)
+    val E = D.map(_._1).sortBy(identity)
 
     E.saveAsTextFile("output/L5out")
 

@@ -52,7 +52,7 @@ object L11 {
 
     val D = C.union(gamma)
 
-    val E = D.distinct(properties.getProperty("PARALLEL").toInt)
+    val E = D.distinct(properties.getProperty("PARALLEL").toInt).sortBy(identity)
 
     E.saveAsTextFile("output/L11out")
 
