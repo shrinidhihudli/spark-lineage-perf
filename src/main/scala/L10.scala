@@ -24,18 +24,18 @@ object L10 {
 
     val pigMixPath = properties.getProperty("pigMix")
     val pageViewsPath = pigMixPath + "page_views/"
-    val usersPath = pigMixPath + "users/"
 
     val conf = new SparkConf().setAppName("Simple Application").setMaster("local")
     val sc = new SparkContext(conf)
     val pageViews = sc.textFile(pageViewsPath)
-    val users = sc.textFile(usersPath)
 
     val A = pageViews.map(x => (safeSplit(x,"\u0001",0), safeSplit(x,"\u0001",1), safeInt(safeSplit(x,"\u0001",2)),
       safeSplit(x,"\u0001",3), safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeDouble(safeSplit(x,"\u0001",6)),
       createMap(safeSplit(x,"\u0001",7)), createBag(safeSplit(x,"\u0001",8))))
 
-    val B = A.sortBy(_._4).sortBy(-_._7).sortBy(_._3)
+    val B = A.sortBy(_._4,true,properties.getProperty("PARALLEL").toInt).
+      sortBy(_._7,false,properties.getProperty("PARALLEL").toInt).
+      sortBy(_._3,true,properties.getProperty("PARALLEL").toInt)
 
     B.saveAsTextFile("output/L10out")
 

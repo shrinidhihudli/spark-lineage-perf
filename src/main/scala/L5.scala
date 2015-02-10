@@ -48,7 +48,7 @@ object L5 {
 
     val beta = alpha.map(x => (x._1,x._1))
 
-    val C = beta.cogroup(B)
+    val C = beta.cogroup(B,properties.getProperty("PARALLEL").toInt)
 
     val D = C.filter(x => x._2._1.size == 0)
 

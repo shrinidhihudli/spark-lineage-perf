@@ -49,9 +49,9 @@ object L3 {
 
     val beta = alpha.map(x => (x._1,1))
 
-    val C = B.join(beta).map(x => (x._1,x._1,x._2._1))
+    val C = B.join(beta,properties.getProperty("PARALLEL").toInt).map(x => (x._1,x._1,x._2._1))
 
-    val D = C.groupBy(_._1)
+    val D = C.groupBy(_._1) //TODO add $PARALLEL
 
     val E = D.map(x => (x._1,x._2.reduce((a,b) => (a._1+b._1,a._2+b._2,a._3+b._3)))).map( x => (x._1,x._2._3)).
       sortBy(_._1)

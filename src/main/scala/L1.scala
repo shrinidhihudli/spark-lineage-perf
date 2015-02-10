@@ -39,7 +39,7 @@ object L1 {
 
     val C = B.map(x =>  if (x._2 == "1") (x._1,x._3.get("a").toString) else (x._1,x._4.get("b").toString))
 
-    val D = C.groupBy(x => x._1)
+    val D = C.groupBy(x => x._1)  //TODO add $PARALLEL
 
     val E = D.map(x => (x._1,x._2.size)).sortBy(_._1)
 

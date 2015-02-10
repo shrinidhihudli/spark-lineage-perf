@@ -1,19 +1,19 @@
 /**
- * Created by shrinidhihudli on 2/7/15.
+ * Created by shrinidhihudli on 2/9/15.
  *
- * -- This script covers having a nested plan with splits.
- * register '/usr/local/Cellar/pig/0.14.0/test/perf/pigmix/pigmix.jar'
- * A = load '/user/pig/tests/data/pigmix/page_views' using org.apache.pig.test.pigmix.udf.PigPerformanceLoader()
+ * -- This script covers distinct and union.
+ * register $PIGMIX_JAR
+ * A = load '$HDFS_ROOT/page_views' using org.apache.pig.test.pigmix.udf.PigPerformanceLoader()
  *     as (user, action, timespent, query_term, ip_addr, timestamp,
- *        estimated_revenue, page_info, page_links);
- * B = foreach A generate user, timestamp;
- * C = group B by user parallel $PARALLEL;
- * D = foreach C {
- *     morning = filter B by timestamp < 43200;
- *     afternoon = filter B by timestamp >= 43200;
- *     generate group, COUNT(morning), COUNT(afternoon);
- * }
- * store D into '$PIGMIX_OUTPUT/L7out';
+ *         estimated_revenue, page_info, page_links);
+ * B = foreach A generate user;
+ * C = distinct B parallel $PARALLEL;
+ * alpha = load '$HDFS_ROOT/widerow' using PigStorage('\u0001');
+ * beta = foreach alpha generate $0 as name;
+ * gamma = distinct beta parallel $PARALLEL;
+ * D = union C, gamma;
+ * E = distinct D parallel $PARALLEL;
+ * store E into '$PIGMIX_OUTPUT/L11out';
  *
  */
 
@@ -23,13 +23,14 @@ import org.apache.spark.SparkConf
 import java.util.Properties
 import java.io.FileInputStream
 
-object L7 {
+object L11 {
   def main(args: Array[String]) {
 
     val properties: Properties = loadPropertiesFile()
 
     val pigMixPath = properties.getProperty("pigMix")
     val pageViewsPath = pigMixPath + "page_views/"
+    val widerowPath = pigMixPath + "widerow/"
 
     val conf = new SparkConf().setAppName("Simple Application").setMaster("local")
     val sc = new SparkContext(conf)
@@ -39,22 +40,22 @@ object L7 {
       safeSplit(x,"\u0001",3), safeSplit(x,"\u0001",4), safeSplit(x,"\u0001",5), safeSplit(x,"\u0001",6),
       createMap(safeSplit(x,"\u0001",7)), createBag(safeSplit(x,"\u0001",8))))
 
-    val B = A.map(x => (x._1,safeInt(x._6)))
+    val B = A.map(_._1)
 
-    val C = B.groupBy(_._1) //TODO add $PARALLEL
+    val C = B.distinct(properties.getProperty("PARALLEL").toInt)
 
-    val D = C.mapValues(x => x.map( y => if (y._2 < 43200) "morning" else "afternoon"))
-      .map(x => (x._1,x._2.groupBy(identity))).map(x => (x._1,x._2.mapValues(x => x.size).map(identity)))
+    val alpha = sc.textFile(widerowPath)
 
-    D.saveAsTextFile("output/L7out")
+    val beta = alpha.map(x => x.split("\u0001")(0))
 
-  }
+    val gamma = beta.distinct(properties.getProperty("PARALLEL").toInt)
 
-  def safeInt(string: String):Int = {
-    if (string == "")
-      0
-    else
-      string.toInt
+    val D = C.union(gamma)
+
+    val E = D.distinct(properties.getProperty("PARALLEL").toInt)
+
+    E.saveAsTextFile("output/L11out")
+
   }
 
   def safeSplit(string: String, delim: String, int: Int):String = {
