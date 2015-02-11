@@ -40,6 +40,6 @@ object SparkMix {
     val stop = System.currentTimeMillis()
 
     val pw = new PrintWriter(new File(outputRoot + "/time.txt"))
-    pw.write(((start - stop)/1000.0).toString + "s")
+    pw.write(((stop - start)/1000.0).toString + "s")
   }
 }
