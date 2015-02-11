@@ -23,7 +23,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L15 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -45,7 +45,7 @@ object L15 {
     val D = C.map(x => (x._1,x._2.map(y => y._2.toSet.size),x._2.map(y => y._3.toSet).map(y => y.sum),
       x._2.map(y => (y._4.toSet,y._4.toSet.size)).map(y => y._1.sum/y._2))).sortBy(_._1)
 
-    D.saveAsTextFile("output/L15out")
+    D.saveAsTextFile(outputPath)
 
   }
 

@@ -24,7 +24,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L5 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -54,7 +54,7 @@ object L5 {
 
     val E = D.map(_._1).sortBy(identity)
 
-    E.saveAsTextFile("output/L5out")
+    E.saveAsTextFile(outputPath)
 
   }
 

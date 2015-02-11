@@ -21,7 +21,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L2 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -48,7 +48,7 @@ object L2 {
     val C = B.join(beta,properties.getProperty("PARALLEL").toInt).map(x => (x._1,x._2._1,x._1)).sortBy(_._1)
       //TODO replicate join
 
-    C.saveAsTextFile("output/L2out")
+    C.saveAsTextFile(outputPath)
 
   }
 

@@ -19,7 +19,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L14 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -45,7 +45,7 @@ object L14 {
 
     val C = B.join(beta,properties.getProperty("PARALLEL").toInt).sortBy(_._1) // merge join unsupported in Spark
 
-    C.saveAsTextFile("output/L14out")
+    C.saveAsTextFile(outputPath)
 
   }
 

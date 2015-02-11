@@ -25,7 +25,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L3 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -56,7 +56,7 @@ object L3 {
     val E = D.map(x => (x._1,x._2.reduce((a,b) => (a._1+b._1,a._2+b._2,a._3+b._3)))).map( x => (x._1,x._2._3)).
       sortBy(_._1)
 
-    E.saveAsTextFile("output/L3out")
+    E.saveAsTextFile(outputPath)
 
   }
 

@@ -24,7 +24,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L7 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -46,7 +46,7 @@ object L7 {
     val D = C.mapValues(x => x.map( y => if (y._2 < 43200) "morning" else "afternoon"))
       .map(x => (x._1,x._2.groupBy(identity))).map(x => (x._1,x._2.mapValues(x => x.size).map(identity))).sortBy(_._1)
 
-    D.saveAsTextFile("output/L7out")
+    D.saveAsTextFile(outputPath)
 
   }
 

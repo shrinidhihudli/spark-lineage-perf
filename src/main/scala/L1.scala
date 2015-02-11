@@ -20,7 +20,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L1 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -43,7 +43,7 @@ object L1 {
 
     val E = D.map(x => (x._1,x._2.size)).sortBy(_._1)
 
-    E.saveAsTextFile("output/L1out")
+    E.saveAsTextFile(outputPath)
 
   }
 

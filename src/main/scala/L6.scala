@@ -20,7 +20,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L6 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -42,7 +42,7 @@ object L6 {
     val D = C.map(x => (x._1,x._2.reduce((a,b) => (a._1+b._1,a._2+b._2,a._3+b._3,a._4+b._4,a._5+b._5,a._6+b._6))))
       .map(x => (x._1._1,x._1._2,x._1._3,x._1._4,x._2._3)).sortBy(_._1)
 
-    D.saveAsTextFile("output/L6out")
+    D.saveAsTextFile(outputPath)
 
   }
 

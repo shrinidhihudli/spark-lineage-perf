@@ -29,7 +29,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L12 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -58,19 +58,19 @@ object L12 {
 
     val F = E.map(x => (x._1,x._2.reduce((a,b) => ("","",0,"",Math.max(a._5,b._5)))))
 
-    F.saveAsTextFile("output/L12out/highest_value_page_per_user")
+    F.saveAsTextFile(outputPath + "/highest_value_page_per_user")
 
     val beta = alpha.groupBy(_._4)
 
     val gamma = beta.map(x => (x._1,x._2.reduce((a,b) => ("","",a._3 + b._3,"",0))))
 
-    gamma.saveAsTextFile("output/L12out/total_timespent_per_term")
+    gamma.saveAsTextFile(outputPath + "/total_timespent_per_term")
 
     val beth = aleph.groupBy(_._2)
 
     val gimel = beth.map(x => (x._1,x._2.size))
 
-    gimel.saveAsTextFile("output/L12out/queries_per_action")
+    gimel.saveAsTextFile(outputPath + "/L12out/queries_per_action")
 
   }
 

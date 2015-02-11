@@ -11,6 +11,7 @@
  * store C into '$PIGMIX_OUTPUT/L13out';
  *
  */
+
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
@@ -18,7 +19,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L13 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -44,7 +45,7 @@ object L13 {
 
     val C = B.leftOuterJoin(beta,properties.getProperty("PARALLEL").toInt).sortBy(_._1)
 
-    C.saveAsTextFile("output/L13out")
+    C.saveAsTextFile(outputPath)
 
   }
 

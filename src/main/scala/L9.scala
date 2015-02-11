@@ -19,7 +19,7 @@ import java.io.FileInputStream
 import java.io._
 
 object L9 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -36,7 +36,7 @@ object L9 {
 
     val B = A.sortBy(_._4,true,properties.getProperty("PARALLEL").toInt)
 
-    B.saveAsTextFile("output/L9out")
+    B.saveAsTextFile(outputPath)
 
   }
 

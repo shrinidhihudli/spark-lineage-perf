@@ -21,7 +21,7 @@ import java.io.FileInputStream
 import java.io._
 
 object L8 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -44,7 +44,7 @@ object L8 {
 
     val E = (D._2,D._3/C.filter(x => x._3 != 0).count())
 
-    val pw = new PrintWriter(new File("output/L8out.txt" ))
+    val pw = new PrintWriter(new File(outputPath))
     pw.write(E.toString())
     pw.close()
 

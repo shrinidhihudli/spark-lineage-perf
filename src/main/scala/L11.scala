@@ -24,7 +24,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L11 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -54,7 +54,7 @@ object L11 {
 
     val E = D.distinct(properties.getProperty("PARALLEL").toInt).sortBy(identity)
 
-    E.saveAsTextFile("output/L11out")
+    E.saveAsTextFile(outputPath)
 
   }
 

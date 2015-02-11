@@ -23,7 +23,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L16 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -42,9 +42,9 @@ object L16 {
 
     val C = B.groupBy(_._1)
 
-    val D = C.map(x => (x._1,x._2.toList.map(x => x._2).sortBy(identity).reduce((a,b) => a + b)))
+    val D = C.map(x => (x._1,x._2.toList.map(x => x._2).sortBy(identity).sum))
 
-    D.saveAsTextFile("output/L16out")
+    D.saveAsTextFile(outputPath)
 
   }
 

@@ -23,7 +23,7 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L4 {
-  def main(args: Array[String]) {
+  def run(outputPath: String) {
 
     val properties: Properties = loadPropertiesFile()
 
@@ -44,7 +44,7 @@ object L4 {
 
     val D = C.mapValues(_.toSet.size).sortBy(_._1)
 
-    D.saveAsTextFile("output/L4out")
+    D.saveAsTextFile(outputPath)
 
   }
 
