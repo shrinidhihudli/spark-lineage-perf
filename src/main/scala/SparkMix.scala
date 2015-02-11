@@ -16,7 +16,7 @@ object SparkMix {
 
     new File(outputRoot).mkdir()
 
-    val conf = new SparkConf().setAppName("Simple Application").setMaster("local")
+    val conf = new SparkConf().setAppName("SparkMix").setMaster("local")
     val sc = new SparkContext(conf)
 
     val start = System.currentTimeMillis()

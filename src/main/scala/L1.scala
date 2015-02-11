@@ -24,8 +24,6 @@ object L1 {
 
     val properties: Properties = SparkMixUtils.loadPropertiesFile()
 
-    System.out.println("______________________________________________________________________________________________")
-    
     val pigMixPath = properties.getProperty("pigMix")
     val pageViewsPath = pigMixPath + "page_views/"
     val pageViews = sc.textFile(pageViewsPath)

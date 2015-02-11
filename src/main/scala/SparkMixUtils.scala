@@ -8,7 +8,7 @@ import java.util.Properties
 object SparkMixUtils {
 
   def createMap(mapString:String):Map[String, String] = {
-    val map = mapString.split("\u0003").map( x => (x.split("\u0004")(0),x.split("\u0004")(1))).toMap
+    val map = mapString.split("\u0003").map(x => (x.split("\u0004")(0),x.split("\u0004")(1))).toMap
     map
   }
 
