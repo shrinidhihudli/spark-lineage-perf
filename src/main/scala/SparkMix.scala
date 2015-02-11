@@ -11,14 +11,15 @@ object SparkMix {
 
   def main (args: Array[String]) {
 
-    val start = System.currentTimeMillis()
-
     val outputRoot = "output"
+    val logRoot = "log"
 
     new File(outputRoot).mkdir()
 
     val conf = new SparkConf().setAppName("Simple Application").setMaster("local")
     val sc = new SparkContext(conf)
+
+    val start = System.currentTimeMillis()
 
     L1.run(sc,outputRoot + "/L1out")
     L2.run(sc,outputRoot + "/L2out")
@@ -39,7 +40,7 @@ object SparkMix {
 
     val stop = System.currentTimeMillis()
 
-    val pw = new PrintWriter(new File(outputRoot + "/time.txt"))
+    val pw = new PrintWriter(new File(logRoot + "/time.txt"))
     pw.write(((stop - start)/1000.0).toString + "s")
   }
 }

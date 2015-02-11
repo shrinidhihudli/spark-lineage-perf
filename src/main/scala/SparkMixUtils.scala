@@ -40,7 +40,7 @@ object SparkMixUtils {
 
   def loadPropertiesFile():Properties = {
     val properties = new Properties()
-    val propFile = new FileInputStream("app.properties")
+    val propFile = getClass.getResourceAsStream("/app.properties")
     properties.load(propFile)
     propFile.close()
     properties
