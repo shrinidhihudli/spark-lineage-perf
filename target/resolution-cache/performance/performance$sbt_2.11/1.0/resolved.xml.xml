@@ -4,7 +4,7 @@
 		module="performance$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150204200648"
+		publication="20150210174052"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
