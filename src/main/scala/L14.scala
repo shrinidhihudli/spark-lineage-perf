@@ -43,7 +43,7 @@ object L14 {
 
     val beta = alpha.map(x => (x._1,x._1))
 
-    val C = B.join(beta,properties.getProperty("PARALLEL").toInt) // merge join unsupported in Spark
+    val C = B.join(beta,properties.getProperty("PARALLEL").toInt).sortBy(_._1) // merge join unsupported in Spark
 
     C.saveAsTextFile("output/L14out")
 
@@ -75,5 +75,3 @@ object L14 {
     properties
   }
 }
-
-
