@@ -13,7 +13,7 @@ object SparkMix {
 
     val start = System.currentTimeMillis()
 
-    val outputRoot = "output2"
+    val outputRoot = "output"
 
     new File(outputRoot).mkdir()
 
