@@ -23,6 +23,8 @@ object L1 {
   def run(sc: SparkContext, outputPath: String) {
 
     val properties: Properties = SparkMixUtils.loadPropertiesFile()
+
+    System.out.println("______________________________________________________________________________________________")
     
     val pigMixPath = properties.getProperty("pigMix")
     val pageViewsPath = pigMixPath + "page_views/"
