@@ -20,11 +20,10 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L1 {
-  def run(sc: SparkContext, outputPath: String) {
+  def run(sc: SparkContext, pigMixPath: String, outputPath: String) {
 
     val properties: Properties = SparkMixUtils.loadPropertiesFile()
 
-    val pigMixPath = properties.getProperty("pigMix")
     val pageViewsPath = pigMixPath + "page_views/"
     val pageViews = sc.textFile(pageViewsPath)
 
@@ -32,8 +31,8 @@ object L1 {
       SparkMixUtils.safeSplit(x,"\u0001",2), SparkMixUtils.safeSplit(x,"\u0001",3),
       SparkMixUtils.safeSplit(x,"\u0001",4), SparkMixUtils.safeSplit(x,"\u0001",5),
       SparkMixUtils.safeSplit(x,"\u0001",6),
-      SparkMixUtils.createMap(SparkMixUtils.safeSplit(x,"\u0001",7)),
-      SparkMixUtils.createBag(SparkMixUtils.safeSplit(x,"\u0001",8))))
+      createMap(SparkMixUtils.safeSplit(x,"\u0001",7)),
+      createBag(SparkMixUtils.safeSplit(x,"\u0001",8))))
 
     val B = A.map(x => (x._1,x._2,x._8,x._9)).flatMap(r => for(v<-r._4) yield(r._1,r._2,r._3,v))
 
@@ -46,4 +45,15 @@ object L1 {
     E.saveAsTextFile(outputPath)
 
   }
+
+  def createMap(mapString:String):Map[String, String] = {
+    val map = mapString.split("\u0003").map(x => (x.split("\u0004")(0),x.split("\u0004")(1))).toMap
+    map
+  }
+
+  def createBag(bagString:String):Array[Map[String, String]] = {
+    val bag = bagString.split("\u0002").map(x => createMap(x))
+    bag
+  }
+
 }

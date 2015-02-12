@@ -21,11 +21,10 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L2 {
-  def run(sc: SparkContext,outputPath: String) {
+  def run(sc: SparkContext,pigMixPath: String,outputPath: String) {
 
     val properties: Properties = SparkMixUtils.loadPropertiesFile()
 
-    val pigMixPath = properties.getProperty("pigMix")
     val pageViewsPath = pigMixPath + "page_views/"
     val powerUsersPath = pigMixPath + "power_users"
     val pageViews = sc.textFile(pageViewsPath)
