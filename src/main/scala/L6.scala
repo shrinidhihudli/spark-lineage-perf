@@ -20,28 +20,36 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L6 {
-  def run(sc: SparkContext,pigMixPath: String,outputPath: String) {
+  def run(sc: SparkContext, pigMixPath: String, outputPath: String): Long = {
 
     val properties: Properties = SparkMixUtils.loadPropertiesFile()
 
     val pageViewsPath = pigMixPath + "page_views/"
+
+    val start = System.currentTimeMillis()
+
     val pageViews = sc.textFile(pageViewsPath)
 
-    val A = pageViews.map(x => (SparkMixUtils.safeSplit(x,"\u0001",0), SparkMixUtils.safeSplit(x,"\u0001",1),
-      SparkMixUtils.safeSplit(x,"\u0001",2), SparkMixUtils.safeSplit(x,"\u0001",3),
-      SparkMixUtils.safeSplit(x,"\u0001",4), SparkMixUtils.safeSplit(x,"\u0001",5),
-      SparkMixUtils.safeSplit(x,"\u0001",6),
-      SparkMixUtils.createMap(SparkMixUtils.safeSplit(x,"\u0001",7)),
-      SparkMixUtils.createBag(SparkMixUtils.safeSplit(x,"\u0001",8))))
+    val A = pageViews.map(x => (SparkMixUtils.safeSplit(x, "\u0001", 0), SparkMixUtils.safeSplit(x, "\u0001", 1),
+      SparkMixUtils.safeSplit(x, "\u0001", 2), SparkMixUtils.safeSplit(x, "\u0001", 3),
+      SparkMixUtils.safeSplit(x, "\u0001", 4), SparkMixUtils.safeSplit(x, "\u0001", 5),
+      SparkMixUtils.safeSplit(x, "\u0001", 6),
+      SparkMixUtils.createMap(SparkMixUtils.safeSplit(x, "\u0001", 7)),
+      SparkMixUtils.createBag(SparkMixUtils.safeSplit(x, "\u0001", 8))))
 
-    val B = A.map(x => (x._1,x._2,SparkMixUtils.safeInt(x._3),x._4,x._5,x._6))
+    val B = A.map(x => (x._1, x._2, SparkMixUtils.safeInt(x._3), x._4, x._5, x._6))
 
-    val C = B.groupBy(x => (x._1,x._4,x._5,x._6)) //TODO add $PARALLEL
+    val C = B.groupBy(x => (x._1, x._4, x._5, x._6)) //TODO add $PARALLEL
 
-    val D = C.map(x => (x._1,x._2.reduce((a,b) => (a._1+b._1,a._2+b._2,a._3+b._3,a._4+b._4,a._5+b._5,a._6+b._6))))
-      .map(x => (x._1._1,x._1._2,x._1._3,x._1._4,x._2._3)).sortBy(_._1)
+    val D = C.map(x => (x._1,
+      x._2.reduce((a, b) => (a._1 + b._1, a._2 + b._2, a._3 + b._3, a._4 + b._4, a._5 + b._5, a._6 + b._6))))
+      .map(x => (x._1._1, x._1._2, x._1._3, x._1._4, x._2._3)).sortBy(_._1)
+
+    val end = System.currentTimeMillis()
 
     D.saveAsTextFile(outputPath)
+
+    return (end - start)
 
   }
 }

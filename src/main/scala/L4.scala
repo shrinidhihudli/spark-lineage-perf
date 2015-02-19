@@ -23,27 +23,33 @@ import java.util.Properties
 import java.io.FileInputStream
 
 object L4 {
-  def run(sc: SparkContext,pigMixPath: String,outputPath: String) {
+  def run(sc: SparkContext, pigMixPath: String, outputPath: String): Long = {
 
     val properties: Properties = SparkMixUtils.loadPropertiesFile()
 
     val pageViewsPath = pigMixPath + "page_views/"
+
+    val start = System.currentTimeMillis()
+
     val pageViews = sc.textFile(pageViewsPath)
 
-    val A = pageViews.map(x => (SparkMixUtils.safeSplit(x,"\u0001",0), SparkMixUtils.safeSplit(x,"\u0001",1),
-      SparkMixUtils.safeSplit(x,"\u0001",2), SparkMixUtils.safeSplit(x,"\u0001",3),
-      SparkMixUtils.safeSplit(x,"\u0001",4), SparkMixUtils.safeSplit(x,"\u0001",5),
-      SparkMixUtils.safeSplit(x,"\u0001",6),
-      SparkMixUtils.createMap(SparkMixUtils.safeSplit(x,"\u0001",7)),
-      SparkMixUtils.createBag(SparkMixUtils.safeSplit(x,"\u0001",8))))
+    val A = pageViews.map(x => (SparkMixUtils.safeSplit(x, "\u0001", 0), SparkMixUtils.safeSplit(x, "\u0001", 1),
+      SparkMixUtils.safeSplit(x, "\u0001", 2), SparkMixUtils.safeSplit(x, "\u0001", 3),
+      SparkMixUtils.safeSplit(x, "\u0001", 4), SparkMixUtils.safeSplit(x, "\u0001", 5),
+      SparkMixUtils.safeSplit(x, "\u0001", 6),
+      SparkMixUtils.createMap(SparkMixUtils.safeSplit(x, "\u0001", 7)),
+      SparkMixUtils.createBag(SparkMixUtils.safeSplit(x, "\u0001", 8))))
 
-    val B = A.map(x => (x._1,x._2))
+    val B = A.map(x => (x._1, x._2))
 
     val C = B.groupBy(_._1) //TODO add $PARALLEL
 
     val D = C.mapValues(_.toSet.size).sortBy(_._1)
 
+    val end = System.currentTimeMillis()
+
     D.saveAsTextFile(outputPath)
 
+    return (end - start)
   }
 }
