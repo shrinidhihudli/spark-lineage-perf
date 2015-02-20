@@ -611,9 +611,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.5!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
-[debug] :: resolution report :: resolve 669ms :: artifacts dl 19ms
+[debug] :: resolution report :: resolve 826ms :: artifacts dl 23ms
 [debug] 	report for performance#performance$sbt_2.10;1.0 default produced in /Users/shrinidhihudli/Documents/Condie/Project/Performance/target/resolution-cache/reports/performance-performance$sbt_2.10-default.xml
-[debug] 	resolve done (669ms resolve - 19ms download)
+[debug] 	resolve done (826ms resolve - 23ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: performance#performance$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -955,6 +955,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.5!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.5!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.5!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 82ms :: artifacts dl 22ms
+[debug] :: resolution report :: resolve 99ms :: artifacts dl 18ms
 [debug] 	report for performance#performance$sources_2.10;1.0 default produced in /Users/shrinidhihudli/Documents/Condie/Project/Performance/target/resolution-cache/reports/performance-performance$sources_2.10-default.xml
-[debug] 	resolve done (82ms resolve - 22ms download)
+[debug] 	resolve done (99ms resolve - 18ms download)

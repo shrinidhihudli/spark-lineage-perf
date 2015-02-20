@@ -14,7 +14,7 @@ object SparkMix {
     val properties = SparkMixUtils.loadPropertiesFile()
     val datasize = "100M"
     val pigmixPath = properties.getProperty("pigMix") + "pigmix_" + datasize + "/"
-    val outputRoot = properties.getProperty("output") + "pigmix_" + datasize + "_" + (System.currentTimeMillis()/1000 % 100000000) + "/"
+    val outputRoot = properties.getProperty("output") + "pigmix_" + datasize + "_" + (System.currentTimeMillis()/100000 % 100000000) + "/"
 
     new File(outputRoot).mkdir()
 
@@ -41,6 +41,7 @@ object SparkMix {
 
     val pw = new PrintWriter(new File(outputRoot + "time.txt"))
 
+    pw.append(datasize + "\n")
     pw.append("L1: " + (L1time/1000.0).toString + " s\n")
     pw.append("L2: " + (L2time/1000.0).toString + " s\n")
     pw.append("L3: " + (L3time/1000.0).toString + " s\n")
