@@ -1,4 +1,4 @@
-import java.io.{File, PrintWriter, FileInputStream}
+import java.io.{FileWriter, File, PrintWriter, FileInputStream}
 import java.util.Properties
 
 import org.apache.spark.{SparkContext, SparkConf}
@@ -14,10 +14,9 @@ object SparkMix {
     val properties = SparkMixUtils.loadPropertiesFile()
     val datasize = "100M"
     val pigmixPath = properties.getProperty("pigMix") + "pigmix_" + datasize + "/"
-    val outputRoot = properties.getProperty("output") + "pigmix_" + datasize + "/"
+    val outputRoot = properties.getProperty("output") + "pigmix_" + datasize + "_" + (System.currentTimeMillis()/1000 % 100000000) + "/"
 
     new File(outputRoot).mkdir()
-    new File(outputRoot + "log/").mkdir()
 
     val conf = new SparkConf().setAppName("SparkMix").setMaster("local")
     val sc = new SparkContext(conf)
@@ -42,23 +41,25 @@ object SparkMix {
 
     val pw = new PrintWriter(new File(outputRoot + "time.txt"))
 
-    pw.append("L1: " + (L1time/1000.0).toString)
-    pw.append("L2: " + (L2time/1000.0).toString)
-    pw.append("L3: " + (L3time/1000.0).toString)
-    pw.append("L4: " + (L4time/1000.0).toString)
-    pw.append("L5: " + (L5time/1000.0).toString)
-    pw.append("L6: " + (L6time/1000.0).toString)
-    pw.append("L7: " + (L7time/1000.0).toString)
-    pw.append("L8: " + (L8time/1000.0).toString)
-    pw.append("L9: " + (L9time/1000.0).toString)
-    pw.append("L10: " + (L10time/1000.0).toString)
-    pw.append("L11: " + (L11time/1000.0).toString)
-    pw.append("L12: " + (L12time/1000.0).toString)
-    pw.append("L13: " + (L13time/1000.0).toString)
-    pw.append("L14: " + (L14time/1000.0).toString)
-    pw.append("L15: " + (L15time/1000.0).toString)
-    pw.append("L16: " + (L16time/1000.0).toString)
-    pw.append("L17: " + (L17time/1000.0).toString)
+    pw.append("L1: " + (L1time/1000.0).toString + " s\n")
+    pw.append("L2: " + (L2time/1000.0).toString + " s\n")
+    pw.append("L3: " + (L3time/1000.0).toString + " s\n")
+    pw.append("L4: " + (L4time/1000.0).toString + " s\n")
+    pw.append("L5: " + (L5time/1000.0).toString + " s\n")
+    pw.append("L6: " + (L6time/1000.0).toString + " s\n")
+    pw.append("L7: " + (L7time/1000.0).toString + " s\n")
+    pw.append("L8: " + (L8time/1000.0).toString + " s\n")
+    pw.append("L9: " + (L9time/1000.0).toString + " s\n")
+    pw.append("L10: " + (L10time/1000.0).toString + " s\n")
+    pw.append("L11: " + (L11time/1000.0).toString + " s\n")
+    pw.append("L12: " + (L12time/1000.0).toString + " s\n")
+    pw.append("L13: " + (L13time/1000.0).toString + " s\n")
+    pw.append("L14: " + (L14time/1000.0).toString + " s\n")
+    pw.append("L15: " + (L15time/1000.0).toString + " s\n")
+    pw.append("L16: " + (L16time/1000.0).toString + " s\n")
+    pw.append("L17: " + (L17time/1000.0).toString + " s\n")
+
+    pw.close
 
   }
 }
