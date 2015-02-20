@@ -14,7 +14,7 @@ object SparkMix {
     val properties = SparkMixUtils.loadPropertiesFile()
     val datasize = "100M"
     val pigmixPath = properties.getProperty("pigMix") + "pigmix_" + datasize + "/"
-    val outputRoot = properties.getProperty("output") + "pigmix_" + datasize + "_" + (System.currentTimeMillis()/100000 % 100000000) + "/"
+    val outputRoot = properties.getProperty("output") + "pigmix_" + datasize + "_" + (System.currentTimeMillis()/100000 % 1000000) + "/"
 
     new File(outputRoot).mkdir()
 
