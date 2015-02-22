@@ -48,7 +48,7 @@ object L2 {
 
     val beta = alpha.map(x => (x._1, 1))
 
-    val C = B.join(beta, properties.getProperty("PARALLEL").toInt).map(x => (x._1, x._2._1, x._1)).sortBy(_._1)
+    val C = B.join(beta, properties.getProperty("PARALLEL").toInt).map(x => (x._1, x._2._1, x._1))
     //TODO replicate join
 
     val end = System.currentTimeMillis()

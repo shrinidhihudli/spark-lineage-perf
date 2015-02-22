@@ -1,7 +1,9 @@
 import java.io.{FileWriter, File, PrintWriter, FileInputStream}
+import java.nio.file.{Files, Paths}
 import java.util.Properties
 
 import org.apache.spark.{SparkContext, SparkConf}
+
 
 /**
  * Created by shrinidhihudli on 2/10/15.
@@ -12,7 +14,7 @@ object SparkMix {
   def main (args: Array[String]) {
 
     val properties = SparkMixUtils.loadPropertiesFile()
-    val datasize = "100M"
+    val datasize = args(0)
     val pigmixPath = properties.getProperty("pigMix") + "pigmix_" + datasize + "/"
     val outputRoot = properties.getProperty("output") + "pigmix_" + datasize + "_" + (System.currentTimeMillis()/100000 % 1000000) + "/"
 
@@ -41,7 +43,7 @@ object SparkMix {
 
     val pw = new PrintWriter(new File(outputRoot + "time.txt"))
 
-    pw.append(datasize + "\n")
+    pw.append(datasize + "\t" + properties.getProperty("PARALLEL") + "\n")
     pw.append("L1: " + (L1time/1000.0).toString + " s\n")
     pw.append("L2: " + (L2time/1000.0).toString + " s\n")
     pw.append("L3: " + (L3time/1000.0).toString + " s\n")
@@ -60,7 +62,6 @@ object SparkMix {
     pw.append("L16: " + (L16time/1000.0).toString + " s\n")
     pw.append("L17: " + (L17time/1000.0).toString + " s\n")
 
-    pw.close
-
+    pw.close()
   }
 }

@@ -43,7 +43,7 @@ object L1 {
 
     val D = C.groupBy(x => x._1) //TODO add $PARALLEL
 
-    val E = D.map(x => (x._1, x._2.size)).sortBy(_._1)
+    val E = D.map(x => (x._1, x._2.size))
 
     val end = System.currentTimeMillis()
 

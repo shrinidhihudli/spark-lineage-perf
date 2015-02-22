@@ -44,7 +44,7 @@ object L4 {
 
     val C = B.groupBy(_._1) //TODO add $PARALLEL
 
-    val D = C.mapValues(_.toSet.size).sortBy(_._1)
+    val D = C.mapValues(_.toSet.size)
 
     val end = System.currentTimeMillis()
 

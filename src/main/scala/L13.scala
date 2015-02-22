@@ -47,7 +47,7 @@ object L13 {
 
     val beta = alpha.map(x => (x._1, x._2))
 
-    val C = B.leftOuterJoin(beta, properties.getProperty("PARALLEL").toInt).sortBy(_._1)
+    val C = B.leftOuterJoin(beta, properties.getProperty("PARALLEL").toInt)
 
     val end = System.currentTimeMillis()
 

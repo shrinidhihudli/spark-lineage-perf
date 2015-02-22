@@ -57,7 +57,6 @@ object L3 {
     val D = C.groupBy(_._1) //TODO add $PARALLEL
 
     val E = D.map(x => (x._1, x._2.reduce((a, b) => (a._1 + b._1, a._2 + b._2, a._3 + b._3)))).map(x => (x._1, x._2._3))
-      .sortBy(_._1)
 
     val end = System.currentTimeMillis()
 

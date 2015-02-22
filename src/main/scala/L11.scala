@@ -54,7 +54,7 @@ object L11 {
 
     val D = C.union(gamma)
 
-    val E = D.distinct(properties.getProperty("PARALLEL").toInt).sortBy(identity)
+    val E = D.distinct(properties.getProperty("PARALLEL").toInt)
 
     val end = System.currentTimeMillis()
 

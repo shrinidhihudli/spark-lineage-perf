@@ -48,21 +48,21 @@ object L12 {
 
     val B = A.map(x => (x._1, x._2, SparkMixUtils.safeInt(x._3), x._4, SparkMixUtils.safeDouble(x._7)))
 
-    val C = B.filter(_._1 != null)
+    val C = B.filter(_._1 != "")
 
     val alpha = B.subtract(C)
 
-    val D = C.filter(_._4 != null)
+    val D = C.filter(_._4 != "")
 
     val aleph = C.subtract(D)
 
     val E = D.groupBy(_._1)
 
-    val F = E.map(x => (x._1, x._2.reduce((a, b) => ("", "", 0, "", Math.max(a._5, b._5)))))
+    val F = E.map(x => (x._1, x._2.reduce((a, b) => ("", "", 0, "", Math.max(a._5, b._5))))).map(x => (x._1,x._2._5))
 
     val beta = alpha.groupBy(_._4)
 
-    val gamma = beta.map(x => (x._1, x._2.reduce((a, b) => ("", "", a._3 + b._3, "", 0))))
+    val gamma = beta.map(x => (x._1, x._2.reduce((a, b) => ("", "", a._3 + b._3, "", 0)))).map(x => (x._1,x._2._3))
 
     val beth = aleph.groupBy(_._2)
 
@@ -72,7 +72,7 @@ object L12 {
 
     F.saveAsTextFile(outputPath + "/highest_value_page_per_user")
     gamma.saveAsTextFile(outputPath + "/total_timespent_per_term")
-    gimel.saveAsTextFile(outputPath + "/L12out/queries_per_action")
+    gimel.saveAsTextFile(outputPath + "/queries_per_action")
 
     return (end - start)
 
