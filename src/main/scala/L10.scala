@@ -31,13 +31,15 @@ object L10 {
     val A = pageViews.map(x => (SparkMixUtils.safeSplit(x, "\u0001", 0), SparkMixUtils.safeSplit(x, "\u0001", 1),
       SparkMixUtils.safeSplit(x, "\u0001", 2), SparkMixUtils.safeSplit(x, "\u0001", 3),
       SparkMixUtils.safeSplit(x, "\u0001", 4), SparkMixUtils.safeSplit(x, "\u0001", 5),
-      SparkMixUtils.safeSplit(x, "\u0001", 6),
+      SparkMixUtils.safeDouble(SparkMixUtils.safeSplit(x, "\u0001", 6)),
       SparkMixUtils.createMap(SparkMixUtils.safeSplit(x, "\u0001", 7)),
       SparkMixUtils.createBag(SparkMixUtils.safeSplit(x, "\u0001", 8))))
 
-    val B = A.sortBy(_._4, true, properties.getProperty("PARALLEL").toInt).
-      sortBy(_._7, false, properties.getProperty("PARALLEL").toInt).
-      sortBy(_._3, true, properties.getProperty("PARALLEL").toInt)
+    //val B = A.sortBy(_._4, true, properties.getProperty("PARALLEL").toInt).
+    //  sortBy(_._7, false, properties.getProperty("PARALLEL").toInt).
+    //  sortBy(_._3, true, properties.getProperty("PARALLEL").toInt)
+
+    val B = A.sortBy(r => (r._4, r._7, r._3),true,properties.getProperty("PARALLEL").toInt)
 
     val end = System.currentTimeMillis()
 

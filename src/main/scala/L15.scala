@@ -40,12 +40,12 @@ object L15 {
       SparkMixUtils.createMap(SparkMixUtils.safeSplit(x, "\u0001", 7)),
       SparkMixUtils.createBag(SparkMixUtils.safeSplit(x, "\u0001", 8))))
 
-    val B = A.map(x => (x._1, x._2, x._7, x._3))
+    val B = A.map(x => (x._1, x._2, SparkMixUtils.safeDouble(x._7), SparkMixUtils.safeInt(x._3)))
 
     val C = B.groupBy(_._1)
 
-    val D = C.map(x => (x._1, x._2.map(y => y._2.toSet.size), x._2.map(y => y._3.toSet).map(y => y.sum),
-      x._2.map(y => (y._4.toSet, y._4.toSet.size)).map(y => y._1.sum / y._2)))
+    val D = C.map(x => (x._1, x._2.map(y => y._2).toSet.size, x._2.map(y => y._3).toSet.sum,
+      x._2.map(y => y._4).toSet.sum.toString,x._2.map(y => y._4).toSet.size)).map(x => (x._1,x._2,x._3,x._4.toInt/x._5))
 
     val end = System.currentTimeMillis()
 
